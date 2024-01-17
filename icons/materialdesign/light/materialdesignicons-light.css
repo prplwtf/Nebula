@@ -1,0 +1,1320 @@
+/* MaterialDesignIcons.com */
+@font-face {
+  font-family: "Material Design Icons Light";
+  src: url("./materialdesignicons-light-webfont.eot");
+  src: 
+    url("./materialdesignicons-light-webfont.eot?#iefix") format("embedded-opentype"),
+    url("./materialdesignicons-light-webfont.woff2") format("woff2"), 
+    url("./materialdesignicons-light-webfont.woff") format("woff"), 
+    url("./materialdesignicons-light-webfont.ttf") format("truetype"), 
+    url("./materialdesignicons-light-webfont.svg#materialdesignicons-lightlight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.mdil:before,
+.mdil-set {
+  display: inline-block;
+  font: normal normal normal 24px/1 "Material Design Icons Light";
+  font-size: inherit;
+  text-rendering: auto;
+  line-height: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mdil-account:before {
+  content: "\F004";
+}
+
+.mdil-alarm:before {
+  content: "\F020";
+}
+
+.mdil-alarm-plus:before {
+  content: "\F024";
+}
+
+.mdil-alert:before {
+  content: "\F026";
+}
+
+.mdil-alert-circle:before {
+  content: "\F028";
+}
+
+.mdil-alert-octagon:before {
+  content: "\F029";
+}
+
+.mdil-arrange-bring-forward:before {
+  content: "\F03D";
+}
+
+.mdil-arrange-bring-to-front:before {
+  content: "\F03E";
+}
+
+.mdil-arrange-send-backward:before {
+  content: "\F03F";
+}
+
+.mdil-arrange-send-to-back:before {
+  content: "\F040";
+}
+
+.mdil-arrow-down:before {
+  content: "\F045";
+}
+
+.mdil-arrow-down-circle:before {
+  content: "\FCB7";
+}
+
+.mdil-arrow-left:before {
+  content: "\F04D";
+}
+
+.mdil-arrow-left-circle:before {
+  content: "\FCB9";
+}
+
+.mdil-arrow-right:before {
+  content: "\F054";
+}
+
+.mdil-arrow-right-circle:before {
+  content: "\FCBB";
+}
+
+.mdil-arrow-up:before {
+  content: "\F05D";
+}
+
+.mdil-arrow-up-circle:before {
+  content: "\FCBD";
+}
+
+.mdil-bank:before {
+  content: "\F070";
+}
+
+.mdil-bell:before {
+  content: "\F09A";
+}
+
+.mdil-bell-off:before {
+  content: "\F09B";
+}
+
+.mdil-bluetooth:before {
+  content: "\F0AF";
+}
+
+.mdil-book:before {
+  content: "\F0BA";
+}
+
+.mdil-book-multiple:before {
+  content: "\F0BB";
+}
+
+.mdil-book-plus:before {
+  content: "\F5DB";
+}
+
+.mdil-bookmark:before {
+  content: "\F0C0";
+}
+
+.mdil-border-all:before {
+  content: "\F0C7";
+}
+
+.mdil-border-bottom:before {
+  content: "\F0C8";
+}
+
+.mdil-border-horizontal:before {
+  content: "\F0CA";
+}
+
+.mdil-border-inside:before {
+  content: "\F0CB";
+}
+
+.mdil-border-left:before {
+  content: "\F0CC";
+}
+
+.mdil-border-none:before {
+  content: "\F0CD";
+}
+
+.mdil-border-outside:before {
+  content: "\F0CE";
+}
+
+.mdil-border-right:before {
+  content: "\F0CF";
+}
+
+.mdil-border-top:before {
+  content: "\F0D1";
+}
+
+.mdil-border-vertical:before {
+  content: "\F0D2";
+}
+
+.mdil-briefcase:before {
+  content: "\F0D6";
+}
+
+.mdil-calendar:before {
+  content: "\F0ED";
+}
+
+.mdil-camcorder:before {
+  content: "\F0FC";
+}
+
+.mdil-camera:before {
+  content: "\F100";
+}
+
+.mdil-cancel:before {
+  content: "\F739";
+}
+
+.mdil-cart:before {
+  content: "\F110";
+}
+
+.mdil-chart-areaspline:before {
+  content: "\F127";
+}
+
+.mdil-chart-bar:before {
+  content: "\F128";
+}
+
+.mdil-chart-histogram:before {
+  content: "\F129";
+}
+
+.mdil-chart-line:before {
+  content: "\F12A";
+}
+
+.mdil-chart-pie:before {
+  content: "\F12B";
+}
+
+.mdil-check:before {
+  content: "\F12C";
+}
+
+.mdil-chevron-double-down:before {
+  content: "\F13C";
+}
+
+.mdil-chevron-double-left:before {
+  content: "\F13D";
+}
+
+.mdil-chevron-double-right:before {
+  content: "\F13E";
+}
+
+.mdil-chevron-double-up:before {
+  content: "\F13F";
+}
+
+.mdil-chevron-down:before {
+  content: "\F140";
+}
+
+.mdil-chevron-left:before {
+  content: "\F141";
+}
+
+.mdil-chevron-right:before {
+  content: "\F142";
+}
+
+.mdil-chevron-up:before {
+  content: "\F143";
+}
+
+.mdil-circle:before {
+  content: "\F764";
+}
+
+.mdil-clipboard:before {
+  content: "\F147";
+}
+
+.mdil-clipboard-check:before {
+  content: "\F14C";
+}
+
+.mdil-clipboard-plus:before {
+  content: "\F750";
+}
+
+.mdil-clipboard-text:before {
+  content: "\F14E";
+}
+
+.mdil-clock:before {
+  content: "\F150";
+}
+
+.mdil-closed-caption:before {
+  content: "\F15E";
+}
+
+.mdil-cloud:before {
+  content: "\F15F";
+}
+
+.mdil-cloud-download:before {
+  content: "\F162";
+}
+
+.mdil-cloud-upload:before {
+  content: "\F167";
+}
+
+.mdil-comment:before {
+  content: "\F17A";
+}
+
+.mdil-comment-alert:before {
+  content: "\F17D";
+}
+
+.mdil-comment-text:before {
+  content: "\F188";
+}
+
+.mdil-console:before {
+  content: "\F18D";
+}
+
+.mdil-content-cut:before {
+  content: "\F190";
+}
+
+.mdil-content-duplicate:before {
+  content: "\F191";
+}
+
+.mdil-content-paste:before {
+  content: "\F192";
+}
+
+.mdil-content-save:before {
+  content: "\F193";
+}
+
+.mdil-content-save-all:before {
+  content: "\F194";
+}
+
+.mdil-credit-card:before {
+  content: "\F19B";
+}
+
+.mdil-credit-card-scan:before {
+  content: "\F19D";
+}
+
+.mdil-crop:before {
+  content: "\F19E";
+}
+
+.mdil-crop-free:before {
+  content: "\F19F";
+}
+
+.mdil-currency-eur:before {
+  content: "\F1AD";
+}
+
+.mdil-currency-gbp:before {
+  content: "\F1AE";
+}
+
+.mdil-currency-rub:before {
+  content: "\F1B1";
+}
+
+.mdil-currency-usd:before {
+  content: "\F1B3";
+}
+
+.mdil-delete:before {
+  content: "\F1C0";
+}
+
+.mdil-diamond-stone:before {
+  content: "\F1C8";
+}
+
+.mdil-dots-horizontal:before {
+  content: "\F1D8";
+}
+
+.mdil-dots-vertical:before {
+  content: "\F1D9";
+}
+
+.mdil-download:before {
+  content: "\F1DA";
+}
+
+.mdil-eject:before {
+  content: "\F1EA";
+}
+
+.mdil-email:before {
+  content: "\F1EE";
+}
+
+.mdil-email-open:before {
+  content: "\F1EF";
+}
+
+.mdil-eye:before {
+  content: "\F208";
+}
+
+.mdil-eye-off:before {
+  content: "\F209";
+}
+
+.mdil-factory:before {
+  content: "\F20F";
+}
+
+.mdil-fast-forward:before {
+  content: "\F211";
+}
+
+.mdil-file:before {
+  content: "\F214";
+}
+
+.mdil-file-multiple:before {
+  content: "\F222";
+}
+
+.mdil-file-plus:before {
+  content: "\F751";
+}
+
+.mdil-flag:before {
+  content: "\F23B";
+}
+
+.mdil-flash:before {
+  content: "\F241";
+}
+
+.mdil-flask:before {
+  content: "\F093";
+}
+
+.mdil-flask-empty:before {
+  content: "\F094";
+}
+
+.mdil-folder:before {
+  content: "\F24B";
+}
+
+.mdil-folder-multiple:before {
+  content: "\F253";
+}
+
+.mdil-folder-plus:before {
+  content: "\F257";
+}
+
+.mdil-format-align-bottom:before {
+  content: "\F752";
+}
+
+.mdil-format-align-center:before {
+  content: "\F260";
+}
+
+.mdil-format-align-justify:before {
+  content: "\F261";
+}
+
+.mdil-format-align-left:before {
+  content: "\F262";
+}
+
+.mdil-format-align-middle:before {
+  content: "\F753";
+}
+
+.mdil-format-align-right:before {
+  content: "\F263";
+}
+
+.mdil-format-align-top:before {
+  content: "\F754";
+}
+
+.mdil-format-bold:before {
+  content: "\F264";
+}
+
+.mdil-format-clear:before {
+  content: "\F265";
+}
+
+.mdil-format-float-center:before {
+  content: "\F267";
+}
+
+.mdil-format-float-left:before {
+  content: "\F268";
+}
+
+.mdil-format-float-none:before {
+  content: "\F269";
+}
+
+.mdil-format-float-right:before {
+  content: "\F26A";
+}
+
+.mdil-format-indent-decrease:before {
+  content: "\F275";
+}
+
+.mdil-format-indent-increase:before {
+  content: "\F276";
+}
+
+.mdil-format-italic:before {
+  content: "\F277";
+}
+
+.mdil-format-line-spacing:before {
+  content: "\F278";
+}
+
+.mdil-format-list-bulleted:before {
+  content: "\F279";
+}
+
+.mdil-format-list-checks:before {
+  content: "\F755";
+}
+
+.mdil-format-list-numbers:before {
+  content: "\F27B";
+}
+
+.mdil-format-quote-close:before {
+  content: "\F27E";
+}
+
+.mdil-format-quote-open:before {
+  content: "\F756";
+}
+
+.mdil-format-underline:before {
+  content: "\F287";
+}
+
+.mdil-format-wrap-inline:before {
+  content: "\F288";
+}
+
+.mdil-format-wrap-square:before {
+  content: "\F289";
+}
+
+.mdil-format-wrap-tight:before {
+  content: "\F28A";
+}
+
+.mdil-format-wrap-top-bottom:before {
+  content: "\F28B";
+}
+
+.mdil-forum:before {
+  content: "\F28C";
+}
+
+.mdil-fullscreen:before {
+  content: "\F293";
+}
+
+.mdil-fullscreen-exit:before {
+  content: "\F294";
+}
+
+.mdil-gift:before {
+  content: "\F2A1";
+}
+
+.mdil-grid:before {
+  content: "\F2C1";
+}
+
+.mdil-grid-large:before {
+  content: "\F757";
+}
+
+.mdil-grid-off:before {
+  content: "\F2C2";
+}
+
+.mdil-group:before {
+  content: "\F2C3";
+}
+
+.mdil-hamburger:before {
+  content: "\F684";
+}
+
+.mdil-heart:before {
+  content: "\F2D1";
+}
+
+.mdil-heart-half:before {
+  content: "\F6DE";
+}
+
+.mdil-heart-off:before {
+  content: "\F758";
+}
+
+.mdil-help:before {
+  content: "\F2D6";
+}
+
+.mdil-help-circle:before {
+  content: "\F2D7";
+}
+
+.mdil-hexagon:before {
+  content: "\F2D8";
+}
+
+.mdil-home:before {
+  content: "\F2DC";
+}
+
+.mdil-image:before {
+  content: "\F2E9";
+}
+
+.mdil-inbox:before {
+  content: "\F686";
+}
+
+.mdil-information:before {
+  content: "\F2FC";
+}
+
+.mdil-label:before {
+  content: "\F315";
+}
+
+.mdil-layers:before {
+  content: "\F328";
+}
+
+.mdil-lightbulb:before {
+  content: "\F335";
+}
+
+.mdil-lightbulb-on:before {
+  content: "\F6E7";
+}
+
+.mdil-link:before {
+  content: "\F337";
+}
+
+.mdil-link-variant:before {
+  content: "\F339";
+}
+
+.mdil-lock:before {
+  content: "\F33E";
+}
+
+.mdil-lock-open:before {
+  content: "\F33F";
+}
+
+.mdil-login:before {
+  content: "\F342";
+}
+
+.mdil-logout:before {
+  content: "\F343";
+}
+
+.mdil-magnify:before {
+  content: "\F349";
+}
+
+.mdil-magnify-minus:before {
+  content: "\F34A";
+}
+
+.mdil-magnify-plus:before {
+  content: "\F34B";
+}
+
+.mdil-map-marker:before {
+  content: "\F34E";
+}
+
+.mdil-memory:before {
+  content: "\F35B";
+}
+
+.mdil-menu:before {
+  content: "\F35C";
+}
+
+.mdil-message:before {
+  content: "\F361";
+}
+
+.mdil-message-alert:before {
+  content: "\F362";
+}
+
+.mdil-message-image:before {
+  content: "\F364";
+}
+
+.mdil-message-processing:before {
+  content: "\F366";
+}
+
+.mdil-message-reply:before {
+  content: "\F367";
+}
+
+.mdil-message-text:before {
+  content: "\F369";
+}
+
+.mdil-message-video:before {
+  content: "\F36B";
+}
+
+.mdil-microphone:before {
+  content: "\F36C";
+}
+
+.mdil-microphone-off:before {
+  content: "\F36D";
+}
+
+.mdil-minus:before {
+  content: "\F374";
+}
+
+.mdil-minus-box:before {
+  content: "\F375";
+}
+
+.mdil-minus-circle:before {
+  content: "\F376";
+}
+
+.mdil-monitor:before {
+  content: "\F379";
+}
+
+.mdil-monitor-multiple:before {
+  content: "\F37A";
+}
+
+.mdil-music:before {
+  content: "\F759";
+}
+
+.mdil-music-off:before {
+  content: "\F75A";
+}
+
+.mdil-nfc-variant:before {
+  content: "\F398";
+}
+
+.mdil-note:before {
+  content: "\F39A";
+}
+
+.mdil-note-multiple:before {
+  content: "\F6B7";
+}
+
+.mdil-note-plus:before {
+  content: "\F39C";
+}
+
+.mdil-note-text:before {
+  content: "\F39E";
+}
+
+.mdil-octagon:before {
+  content: "\F3C3";
+}
+
+.mdil-paperclip:before {
+  content: "\F3E2";
+}
+
+.mdil-pause:before {
+  content: "\F3E4";
+}
+
+.mdil-pencil:before {
+  content: "\F3EB";
+}
+
+.mdil-phone:before {
+  content: "\F3F2";
+}
+
+.mdil-pin:before {
+  content: "\F403";
+}
+
+.mdil-pin-off:before {
+  content: "\F404";
+}
+
+.mdil-play:before {
+  content: "\F40A";
+}
+
+.mdil-plus:before {
+  content: "\F415";
+}
+
+.mdil-plus-box:before {
+  content: "\F416";
+}
+
+.mdil-plus-circle:before {
+  content: "\F417";
+}
+
+.mdil-power:before {
+  content: "\F425";
+}
+
+.mdil-presentation:before {
+  content: "\F428";
+}
+
+.mdil-presentation-play:before {
+  content: "\F429";
+}
+
+.mdil-printer:before {
+  content: "\F42A";
+}
+
+.mdil-redo-variant:before {
+  content: "\F44F";
+}
+
+.mdil-refresh:before {
+  content: "\F450";
+}
+
+.mdil-repeat:before {
+  content: "\F456";
+}
+
+.mdil-repeat-off:before {
+  content: "\F457";
+}
+
+.mdil-repeat-once:before {
+  content: "\F458";
+}
+
+.mdil-rewind:before {
+  content: "\F45F";
+}
+
+.mdil-rhombus:before {
+  content: "\F70A";
+}
+
+.mdil-rss:before {
+  content: "\F46B";
+}
+
+.mdil-script:before {
+  content: "\F478";
+}
+
+.mdil-settings:before {
+  content: "\F493";
+}
+
+.mdil-shield:before {
+  content: "\F498";
+}
+
+.mdil-shuffle:before {
+  content: "\F49D";
+}
+
+.mdil-signal:before {
+  content: "\F4A2";
+}
+
+.mdil-sitemap:before {
+  content: "\F4AA";
+}
+
+.mdil-skip-next:before {
+  content: "\F4AD";
+}
+
+.mdil-skip-previous:before {
+  content: "\F4AE";
+}
+
+.mdil-sleep:before {
+  content: "\F4B2";
+}
+
+.mdil-sleep-off:before {
+  content: "\F4B3";
+}
+
+.mdil-spellcheck:before {
+  content: "\F4C6";
+}
+
+.mdil-square:before {
+  content: "\F763";
+}
+
+.mdil-star:before {
+  content: "\F4CE";
+}
+
+.mdil-star-half:before {
+  content: "\F4D0";
+}
+
+.mdil-stop:before {
+  content: "\F4DB";
+}
+
+.mdil-tab:before {
+  content: "\F4E9";
+}
+
+.mdil-tab-plus:before {
+  content: "\F75B";
+}
+
+.mdil-table:before {
+  content: "\F4EB";
+}
+
+.mdil-taco:before {
+  content: "\F761";
+}
+
+.mdil-tag:before {
+  content: "\F4F9";
+}
+
+.mdil-television:before {
+  content: "\F502";
+}
+
+.mdil-thumb-down:before {
+  content: "\F511";
+}
+
+.mdil-thumb-up:before {
+  content: "\F513";
+}
+
+.mdil-thumbs-up-down:before {
+  content: "\F515";
+}
+
+.mdil-tooltip:before {
+  content: "\F523";
+}
+
+.mdil-tooltip-text:before {
+  content: "\F528";
+}
+
+.mdil-triangle:before {
+  content: "\F536";
+}
+
+.mdil-trophy:before {
+  content: "\F538";
+}
+
+.mdil-undo-variant:before {
+  content: "\F54D";
+}
+
+.mdil-unfold-less-horizontal:before {
+  content: "\F54E";
+}
+
+.mdil-unfold-less-vertical:before {
+  content: "\F75F";
+}
+
+.mdil-unfold-more-horizontal:before {
+  content: "\F54F";
+}
+
+.mdil-unfold-more-vertical:before {
+  content: "\F760";
+}
+
+.mdil-ungroup:before {
+  content: "\F550";
+}
+
+.mdil-upload:before {
+  content: "\F552";
+}
+
+.mdil-vector-arrange-above:before {
+  content: "\F554";
+}
+
+.mdil-vector-arrange-below:before {
+  content: "\F555";
+}
+
+.mdil-vector-combine:before {
+  content: "\F558";
+}
+
+.mdil-vector-difference:before {
+  content: "\F55A";
+}
+
+.mdil-vector-difference-ab:before {
+  content: "\F55B";
+}
+
+.mdil-vector-difference-ba:before {
+  content: "\F55C";
+}
+
+.mdil-vector-intersection:before {
+  content: "\F55D";
+}
+
+.mdil-vector-union:before {
+  content: "\F564";
+}
+
+.mdil-view-dashboard:before {
+  content: "\F56E";
+}
+
+.mdil-view-module:before {
+  content: "\F573";
+}
+
+.mdil-volume-high:before {
+  content: "\F57E";
+}
+
+.mdil-volume-minus:before {
+  content: "\F75D";
+}
+
+.mdil-volume-mute:before {
+  content: "\F75E";
+}
+
+.mdil-volume-off:before {
+  content: "\F581";
+}
+
+.mdil-volume-plus:before {
+  content: "\F75C";
+}
+
+.mdil-wifi:before {
+  content: "\F5A9";
+}
+
+.mdil-xml:before {
+  content: "\F5C0";
+}
+
+.mdil-blank:before {
+  content: "\F68C";
+  visibility: hidden;
+}
+
+.mdil-18px.mdil-set, .mdil-18px.mdil:before {
+  font-size: 18px;
+}
+
+.mdil-24px.mdil-set, .mdil-24px.mdil:before {
+  font-size: 24px;
+}
+
+.mdil-36px.mdil-set, .mdil-36px.mdil:before {
+  font-size: 36px;
+}
+
+.mdil-48px.mdil-set, .mdil-48px.mdil:before {
+  font-size: 48px;
+}
+
+.mdil-dark:before {
+  color: rgba(0, 0, 0, 0.54);
+}
+.mdil-dark.mdi-inactive:before {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+.mdil-light:before {
+  color: white;
+}
+.mdil-light.mdi-inactive:before {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.mdil-rotate-45 {
+  /*
+  // Not included in production
+  &.mdil-flip-h:before {
+      -webkit-transform: scaleX(-1) rotate(45deg);
+      transform: scaleX(-1) rotate(45deg);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+  }
+  &.mdil-flip-v:before {
+      -webkit-transform: scaleY(-1) rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: scaleY(-1) rotate(45deg);
+      filter: FlipV;
+      -ms-filter: "FlipV";
+  }
+  */
+}
+.mdil-rotate-45:before {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.mdil-rotate-90 {
+  /*
+  // Not included in production
+  &.mdil-flip-h:before {
+      -webkit-transform: scaleX(-1) rotate(90deg);
+      transform: scaleX(-1) rotate(90deg);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+  }
+  &.mdil-flip-v:before {
+      -webkit-transform: scaleY(-1) rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: scaleY(-1) rotate(90deg);
+      filter: FlipV;
+      -ms-filter: "FlipV";
+  }
+  */
+}
+.mdil-rotate-90:before {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.mdil-rotate-135 {
+  /*
+  // Not included in production
+  &.mdil-flip-h:before {
+      -webkit-transform: scaleX(-1) rotate(135deg);
+      transform: scaleX(-1) rotate(135deg);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+  }
+  &.mdil-flip-v:before {
+      -webkit-transform: scaleY(-1) rotate(135deg);
+      -ms-transform: rotate(135deg);
+      transform: scaleY(-1) rotate(135deg);
+      filter: FlipV;
+      -ms-filter: "FlipV";
+  }
+  */
+}
+.mdil-rotate-135:before {
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.mdil-rotate-180 {
+  /*
+  // Not included in production
+  &.mdil-flip-h:before {
+      -webkit-transform: scaleX(-1) rotate(180deg);
+      transform: scaleX(-1) rotate(180deg);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+  }
+  &.mdil-flip-v:before {
+      -webkit-transform: scaleY(-1) rotate(180deg);
+      -ms-transform: rotate(180deg);
+      transform: scaleY(-1) rotate(180deg);
+      filter: FlipV;
+      -ms-filter: "FlipV";
+  }
+  */
+}
+.mdil-rotate-180:before {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.mdil-rotate-225 {
+  /*
+  // Not included in production
+  &.mdil-flip-h:before {
+      -webkit-transform: scaleX(-1) rotate(225deg);
+      transform: scaleX(-1) rotate(225deg);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+  }
+  &.mdil-flip-v:before {
+      -webkit-transform: scaleY(-1) rotate(225deg);
+      -ms-transform: rotate(225deg);
+      transform: scaleY(-1) rotate(225deg);
+      filter: FlipV;
+      -ms-filter: "FlipV";
+  }
+  */
+}
+.mdil-rotate-225:before {
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
+}
+
+.mdil-rotate-270 {
+  /*
+  // Not included in production
+  &.mdil-flip-h:before {
+      -webkit-transform: scaleX(-1) rotate(270deg);
+      transform: scaleX(-1) rotate(270deg);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+  }
+  &.mdil-flip-v:before {
+      -webkit-transform: scaleY(-1) rotate(270deg);
+      -ms-transform: rotate(270deg);
+      transform: scaleY(-1) rotate(270deg);
+      filter: FlipV;
+      -ms-filter: "FlipV";
+  }
+  */
+}
+.mdil-rotate-270:before {
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.mdil-rotate-315 {
+  /*
+  // Not included in production
+  &.mdil-flip-h:before {
+      -webkit-transform: scaleX(-1) rotate(315deg);
+      transform: scaleX(-1) rotate(315deg);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+  }
+  &.mdil-flip-v:before {
+      -webkit-transform: scaleY(-1) rotate(315deg);
+      -ms-transform: rotate(315deg);
+      transform: scaleY(-1) rotate(315deg);
+      filter: FlipV;
+      -ms-filter: "FlipV";
+  }
+  */
+}
+.mdil-rotate-315:before {
+  -webkit-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  transform: rotate(315deg);
+}
+
+.mdil-flip-h:before {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.mdil-flip-v:before {
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  filter: FlipV;
+  -ms-filter: "FlipV";
+}
+
+.mdil-spin:before {
+  -webkit-animation: mdil-spin 2s infinite linear;
+  animation: mdil-spin 2s infinite linear;
+}
+
+@-webkit-keyframes mdil-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes mdil-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+/*# sourceMappingURL=materialdesignicons-light.css.map */

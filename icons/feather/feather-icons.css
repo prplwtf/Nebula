@@ -1,0 +1,1450 @@
+
+@font-face {
+  font-family: 'Feather Icons';
+  src: url("./feather-icons.woff2") format("woff2"),
+       url("./feather-icons.woff") format("woff");
+}
+
+.ff {
+    font-style: normal;
+    text-rendering: auto;
+    display: inline-block;
+    font-variant: normal;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.ff-activity::before {
+  content: "\ea01";
+  font-family: "Feather Icons";
+}
+
+.ff-airplay::before {
+  content: "\ea02";
+  font-family: "Feather Icons";
+}
+
+.ff-alert-circle::before {
+  content: "\ea03";
+  font-family: "Feather Icons";
+}
+
+.ff-alert-octagon::before {
+  content: "\ea04";
+  font-family: "Feather Icons";
+}
+
+.ff-alert-triangle::before {
+  content: "\ea05";
+  font-family: "Feather Icons";
+}
+
+.ff-align-center::before {
+  content: "\ea06";
+  font-family: "Feather Icons";
+}
+
+.ff-align-justify::before {
+  content: "\ea07";
+  font-family: "Feather Icons";
+}
+
+.ff-align-left::before {
+  content: "\ea08";
+  font-family: "Feather Icons";
+}
+
+.ff-align-right::before {
+  content: "\ea09";
+  font-family: "Feather Icons";
+}
+
+.ff-anchor::before {
+  content: "\ea0a";
+  font-family: "Feather Icons";
+}
+
+.ff-aperture::before {
+  content: "\ea0b";
+  font-family: "Feather Icons";
+}
+
+.ff-archive::before {
+  content: "\ea0c";
+  font-family: "Feather Icons";
+}
+
+.ff-arrow-down-circle::before {
+  content: "\ea0d";
+  font-family: "Feather Icons";
+}
+
+.ff-arrow-down-left::before {
+  content: "\ea0e";
+  font-family: "Feather Icons";
+}
+
+.ff-arrow-down-right::before {
+  content: "\ea0f";
+  font-family: "Feather Icons";
+}
+
+.ff-arrow-down::before {
+  content: "\ea10";
+  font-family: "Feather Icons";
+}
+
+.ff-arrow-left-circle::before {
+  content: "\ea11";
+  font-family: "Feather Icons";
+}
+
+.ff-arrow-left::before {
+  content: "\ea12";
+  font-family: "Feather Icons";
+}
+
+.ff-arrow-right-circle::before {
+  content: "\ea13";
+  font-family: "Feather Icons";
+}
+
+.ff-arrow-right::before {
+  content: "\ea14";
+  font-family: "Feather Icons";
+}
+
+.ff-arrow-up-circle::before {
+  content: "\ea15";
+  font-family: "Feather Icons";
+}
+
+.ff-arrow-up-left::before {
+  content: "\ea16";
+  font-family: "Feather Icons";
+}
+
+.ff-arrow-up-right::before {
+  content: "\ea17";
+  font-family: "Feather Icons";
+}
+
+.ff-arrow-up::before {
+  content: "\ea18";
+  font-family: "Feather Icons";
+}
+
+.ff-at-sign::before {
+  content: "\ea19";
+  font-family: "Feather Icons";
+}
+
+.ff-award::before {
+  content: "\ea1a";
+  font-family: "Feather Icons";
+}
+
+.ff-bar-chart-2::before {
+  content: "\ea1b";
+  font-family: "Feather Icons";
+}
+
+.ff-bar-chart::before {
+  content: "\ea1c";
+  font-family: "Feather Icons";
+}
+
+.ff-battery-charging::before {
+  content: "\ea1d";
+  font-family: "Feather Icons";
+}
+
+.ff-battery::before {
+  content: "\ea1e";
+  font-family: "Feather Icons";
+}
+
+.ff-bell-off::before {
+  content: "\ea1f";
+  font-family: "Feather Icons";
+}
+
+.ff-bell::before {
+  content: "\ea20";
+  font-family: "Feather Icons";
+}
+
+.ff-bluetooth::before {
+  content: "\ea21";
+  font-family: "Feather Icons";
+}
+
+.ff-bold::before {
+  content: "\ea22";
+  font-family: "Feather Icons";
+}
+
+.ff-book-open::before {
+  content: "\ea23";
+  font-family: "Feather Icons";
+}
+
+.ff-book::before {
+  content: "\ea24";
+  font-family: "Feather Icons";
+}
+
+.ff-bookmark::before {
+  content: "\ea25";
+  font-family: "Feather Icons";
+}
+
+.ff-box::before {
+  content: "\ea26";
+  font-family: "Feather Icons";
+}
+
+.ff-briefcase::before {
+  content: "\ea27";
+  font-family: "Feather Icons";
+}
+
+.ff-calendar::before {
+  content: "\ea28";
+  font-family: "Feather Icons";
+}
+
+.ff-camera-off::before {
+  content: "\ea29";
+  font-family: "Feather Icons";
+}
+
+.ff-camera::before {
+  content: "\ea2a";
+  font-family: "Feather Icons";
+}
+
+.ff-cast::before {
+  content: "\ea2b";
+  font-family: "Feather Icons";
+}
+
+.ff-check-circle::before {
+  content: "\ea2c";
+  font-family: "Feather Icons";
+}
+
+.ff-check-square::before {
+  content: "\ea2d";
+  font-family: "Feather Icons";
+}
+
+.ff-check::before {
+  content: "\ea2e";
+  font-family: "Feather Icons";
+}
+
+.ff-chevron-down::before {
+  content: "\ea2f";
+  font-family: "Feather Icons";
+}
+
+.ff-chevron-left::before {
+  content: "\ea30";
+  font-family: "Feather Icons";
+}
+
+.ff-chevron-right::before {
+  content: "\ea31";
+  font-family: "Feather Icons";
+}
+
+.ff-chevron-up::before {
+  content: "\ea32";
+  font-family: "Feather Icons";
+}
+
+.ff-chevrons-down::before {
+  content: "\ea33";
+  font-family: "Feather Icons";
+}
+
+.ff-chevrons-left::before {
+  content: "\ea34";
+  font-family: "Feather Icons";
+}
+
+.ff-chevrons-right::before {
+  content: "\ea35";
+  font-family: "Feather Icons";
+}
+
+.ff-chevrons-up::before {
+  content: "\ea36";
+  font-family: "Feather Icons";
+}
+
+.ff-chrome::before {
+  content: "\ea37";
+  font-family: "Feather Icons";
+}
+
+.ff-circle::before {
+  content: "\ea38";
+  font-family: "Feather Icons";
+}
+
+.ff-clipboard::before {
+  content: "\ea39";
+  font-family: "Feather Icons";
+}
+
+.ff-clock::before {
+  content: "\ea3a";
+  font-family: "Feather Icons";
+}
+
+.ff-cloud-drizzle::before {
+  content: "\ea3b";
+  font-family: "Feather Icons";
+}
+
+.ff-cloud-lightning::before {
+  content: "\ea3c";
+  font-family: "Feather Icons";
+}
+
+.ff-cloud-off::before {
+  content: "\ea3d";
+  font-family: "Feather Icons";
+}
+
+.ff-cloud-rain::before {
+  content: "\ea3e";
+  font-family: "Feather Icons";
+}
+
+.ff-cloud-snow::before {
+  content: "\ea3f";
+  font-family: "Feather Icons";
+}
+
+.ff-cloud::before {
+  content: "\ea40";
+  font-family: "Feather Icons";
+}
+
+.ff-code::before {
+  content: "\ea41";
+  font-family: "Feather Icons";
+}
+
+.ff-codepen::before {
+  content: "\ea42";
+  font-family: "Feather Icons";
+}
+
+.ff-codesandbox::before {
+  content: "\ea43";
+  font-family: "Feather Icons";
+}
+
+.ff-coffee::before {
+  content: "\ea44";
+  font-family: "Feather Icons";
+}
+
+.ff-columns::before {
+  content: "\ea45";
+  font-family: "Feather Icons";
+}
+
+.ff-command::before {
+  content: "\ea46";
+  font-family: "Feather Icons";
+}
+
+.ff-compass::before {
+  content: "\ea47";
+  font-family: "Feather Icons";
+}
+
+.ff-copy::before {
+  content: "\ea48";
+  font-family: "Feather Icons";
+}
+
+.ff-corner-down-left::before {
+  content: "\ea49";
+  font-family: "Feather Icons";
+}
+
+.ff-corner-down-right::before {
+  content: "\ea4a";
+  font-family: "Feather Icons";
+}
+
+.ff-corner-left-down::before {
+  content: "\ea4b";
+  font-family: "Feather Icons";
+}
+
+.ff-corner-left-up::before {
+  content: "\ea4c";
+  font-family: "Feather Icons";
+}
+
+.ff-corner-right-down::before {
+  content: "\ea4d";
+  font-family: "Feather Icons";
+}
+
+.ff-corner-right-up::before {
+  content: "\ea4e";
+  font-family: "Feather Icons";
+}
+
+.ff-corner-up-left::before {
+  content: "\ea4f";
+  font-family: "Feather Icons";
+}
+
+.ff-corner-up-right::before {
+  content: "\ea50";
+  font-family: "Feather Icons";
+}
+
+.ff-cpu::before {
+  content: "\ea51";
+  font-family: "Feather Icons";
+}
+
+.ff-credit-card::before {
+  content: "\ea52";
+  font-family: "Feather Icons";
+}
+
+.ff-crop::before {
+  content: "\ea53";
+  font-family: "Feather Icons";
+}
+
+.ff-crosshair::before {
+  content: "\ea54";
+  font-family: "Feather Icons";
+}
+
+.ff-database::before {
+  content: "\ea55";
+  font-family: "Feather Icons";
+}
+
+.ff-delete::before {
+  content: "\ea56";
+  font-family: "Feather Icons";
+}
+
+.ff-disc::before {
+  content: "\ea57";
+  font-family: "Feather Icons";
+}
+
+.ff-divide-circle::before {
+  content: "\ea58";
+  font-family: "Feather Icons";
+}
+
+.ff-divide-square::before {
+  content: "\ea59";
+  font-family: "Feather Icons";
+}
+
+.ff-divide::before {
+  content: "\ea5a";
+  font-family: "Feather Icons";
+}
+
+.ff-dollar-sign::before {
+  content: "\ea5b";
+  font-family: "Feather Icons";
+}
+
+.ff-download-cloud::before {
+  content: "\ea5c";
+  font-family: "Feather Icons";
+}
+
+.ff-download::before {
+  content: "\ea5d";
+  font-family: "Feather Icons";
+}
+
+.ff-dribbble::before {
+  content: "\ea5e";
+  font-family: "Feather Icons";
+}
+
+.ff-droplet::before {
+  content: "\ea5f";
+  font-family: "Feather Icons";
+}
+
+.ff-edit-2::before {
+  content: "\ea60";
+  font-family: "Feather Icons";
+}
+
+.ff-edit-3::before {
+  content: "\ea61";
+  font-family: "Feather Icons";
+}
+
+.ff-edit::before {
+  content: "\ea62";
+  font-family: "Feather Icons";
+}
+
+.ff-external-link::before {
+  content: "\ea63";
+  font-family: "Feather Icons";
+}
+
+.ff-eye-off::before {
+  content: "\ea64";
+  font-family: "Feather Icons";
+}
+
+.ff-eye::before {
+  content: "\ea65";
+  font-family: "Feather Icons";
+}
+
+.ff-facebook::before {
+  content: "\ea66";
+  font-family: "Feather Icons";
+}
+
+.ff-fast-forward::before {
+  content: "\ea67";
+  font-family: "Feather Icons";
+}
+
+.ff-feather::before {
+  content: "\ea68";
+  font-family: "Feather Icons";
+}
+
+.ff-figma::before {
+  content: "\ea69";
+  font-family: "Feather Icons";
+}
+
+.ff-file-minus::before {
+  content: "\ea6a";
+  font-family: "Feather Icons";
+}
+
+.ff-file-plus::before {
+  content: "\ea6b";
+  font-family: "Feather Icons";
+}
+
+.ff-file-text::before {
+  content: "\ea6c";
+  font-family: "Feather Icons";
+}
+
+.ff-file::before {
+  content: "\ea6d";
+  font-family: "Feather Icons";
+}
+
+.ff-film::before {
+  content: "\ea6e";
+  font-family: "Feather Icons";
+}
+
+.ff-filter::before {
+  content: "\ea6f";
+  font-family: "Feather Icons";
+}
+
+.ff-flag::before {
+  content: "\ea70";
+  font-family: "Feather Icons";
+}
+
+.ff-folder-minus::before {
+  content: "\ea71";
+  font-family: "Feather Icons";
+}
+
+.ff-folder-plus::before {
+  content: "\ea72";
+  font-family: "Feather Icons";
+}
+
+.ff-folder::before {
+  content: "\ea73";
+  font-family: "Feather Icons";
+}
+
+.ff-framer::before {
+  content: "\ea74";
+  font-family: "Feather Icons";
+}
+
+.ff-frown::before {
+  content: "\ea75";
+  font-family: "Feather Icons";
+}
+
+.ff-gift::before {
+  content: "\ea76";
+  font-family: "Feather Icons";
+}
+
+.ff-git-branch::before {
+  content: "\ea77";
+  font-family: "Feather Icons";
+}
+
+.ff-git-commit::before {
+  content: "\ea78";
+  font-family: "Feather Icons";
+}
+
+.ff-git-merge::before {
+  content: "\ea79";
+  font-family: "Feather Icons";
+}
+
+.ff-git-pull-request::before {
+  content: "\ea7a";
+  font-family: "Feather Icons";
+}
+
+.ff-github::before {
+  content: "\ea7b";
+  font-family: "Feather Icons";
+}
+
+.ff-gitlab::before {
+  content: "\ea7c";
+  font-family: "Feather Icons";
+}
+
+.ff-globe::before {
+  content: "\ea7d";
+  font-family: "Feather Icons";
+}
+
+.ff-grid::before {
+  content: "\ea7e";
+  font-family: "Feather Icons";
+}
+
+.ff-hard-drive::before {
+  content: "\ea7f";
+  font-family: "Feather Icons";
+}
+
+.ff-hash::before {
+  content: "\ea80";
+  font-family: "Feather Icons";
+}
+
+.ff-headphones::before {
+  content: "\ea81";
+  font-family: "Feather Icons";
+}
+
+.ff-heart::before {
+  content: "\ea82";
+  font-family: "Feather Icons";
+}
+
+.ff-help-circle::before {
+  content: "\ea83";
+  font-family: "Feather Icons";
+}
+
+.ff-hexagon::before {
+  content: "\ea84";
+  font-family: "Feather Icons";
+}
+
+.ff-home::before {
+  content: "\ea85";
+  font-family: "Feather Icons";
+}
+
+.ff-image::before {
+  content: "\ea86";
+  font-family: "Feather Icons";
+}
+
+.ff-inbox::before {
+  content: "\ea87";
+  font-family: "Feather Icons";
+}
+
+.ff-info::before {
+  content: "\ea88";
+  font-family: "Feather Icons";
+}
+
+.ff-instagram::before {
+  content: "\ea89";
+  font-family: "Feather Icons";
+}
+
+.ff-italic::before {
+  content: "\ea8a";
+  font-family: "Feather Icons";
+}
+
+.ff-key::before {
+  content: "\ea8b";
+  font-family: "Feather Icons";
+}
+
+.ff-layers::before {
+  content: "\ea8c";
+  font-family: "Feather Icons";
+}
+
+.ff-layout::before {
+  content: "\ea8d";
+  font-family: "Feather Icons";
+}
+
+.ff-life-buoy::before {
+  content: "\ea8e";
+  font-family: "Feather Icons";
+}
+
+.ff-link-2::before {
+  content: "\ea8f";
+  font-family: "Feather Icons";
+}
+
+.ff-link::before {
+  content: "\ea90";
+  font-family: "Feather Icons";
+}
+
+.ff-linkedin::before {
+  content: "\ea91";
+  font-family: "Feather Icons";
+}
+
+.ff-list::before {
+  content: "\ea92";
+  font-family: "Feather Icons";
+}
+
+.ff-loader::before {
+  content: "\ea93";
+  font-family: "Feather Icons";
+}
+
+.ff-lock::before {
+  content: "\ea94";
+  font-family: "Feather Icons";
+}
+
+.ff-log-in::before {
+  content: "\ea95";
+  font-family: "Feather Icons";
+}
+
+.ff-log-out::before {
+  content: "\ea96";
+  font-family: "Feather Icons";
+}
+
+.ff-mail::before {
+  content: "\ea97";
+  font-family: "Feather Icons";
+}
+
+.ff-map-pin::before {
+  content: "\ea98";
+  font-family: "Feather Icons";
+}
+
+.ff-map::before {
+  content: "\ea99";
+  font-family: "Feather Icons";
+}
+
+.ff-maximize-2::before {
+  content: "\ea9a";
+  font-family: "Feather Icons";
+}
+
+.ff-maximize::before {
+  content: "\ea9b";
+  font-family: "Feather Icons";
+}
+
+.ff-meh::before {
+  content: "\ea9c";
+  font-family: "Feather Icons";
+}
+
+.ff-menu::before {
+  content: "\ea9d";
+  font-family: "Feather Icons";
+}
+
+.ff-message-circle::before {
+  content: "\ea9e";
+  font-family: "Feather Icons";
+}
+
+.ff-message-square::before {
+  content: "\ea9f";
+  font-family: "Feather Icons";
+}
+
+.ff-mic-off::before {
+  content: "\eaa0";
+  font-family: "Feather Icons";
+}
+
+.ff-mic::before {
+  content: "\eaa1";
+  font-family: "Feather Icons";
+}
+
+.ff-minimize-2::before {
+  content: "\eaa2";
+  font-family: "Feather Icons";
+}
+
+.ff-minimize::before {
+  content: "\eaa3";
+  font-family: "Feather Icons";
+}
+
+.ff-minus-circle::before {
+  content: "\eaa4";
+  font-family: "Feather Icons";
+}
+
+.ff-minus-square::before {
+  content: "\eaa5";
+  font-family: "Feather Icons";
+}
+
+.ff-minus::before {
+  content: "\eaa6";
+  font-family: "Feather Icons";
+}
+
+.ff-monitor::before {
+  content: "\eaa7";
+  font-family: "Feather Icons";
+}
+
+.ff-moon::before {
+  content: "\eaa8";
+  font-family: "Feather Icons";
+}
+
+.ff-more-horizontal::before {
+  content: "\eaa9";
+  font-family: "Feather Icons";
+}
+
+.ff-more-vertical::before {
+  content: "\eaaa";
+  font-family: "Feather Icons";
+}
+
+.ff-mouse-pointer::before {
+  content: "\eaab";
+  font-family: "Feather Icons";
+}
+
+.ff-move::before {
+  content: "\eaac";
+  font-family: "Feather Icons";
+}
+
+.ff-music::before {
+  content: "\eaad";
+  font-family: "Feather Icons";
+}
+
+.ff-navigation-2::before {
+  content: "\eaae";
+  font-family: "Feather Icons";
+}
+
+.ff-navigation::before {
+  content: "\eaaf";
+  font-family: "Feather Icons";
+}
+
+.ff-octagon::before {
+  content: "\eab0";
+  font-family: "Feather Icons";
+}
+
+.ff-package::before {
+  content: "\eab1";
+  font-family: "Feather Icons";
+}
+
+.ff-paperclip::before {
+  content: "\eab2";
+  font-family: "Feather Icons";
+}
+
+.ff-pause-circle::before {
+  content: "\eab3";
+  font-family: "Feather Icons";
+}
+
+.ff-pause::before {
+  content: "\eab4";
+  font-family: "Feather Icons";
+}
+
+.ff-pen-tool::before {
+  content: "\eab5";
+  font-family: "Feather Icons";
+}
+
+.ff-percent::before {
+  content: "\eab6";
+  font-family: "Feather Icons";
+}
+
+.ff-phone-call::before {
+  content: "\eab7";
+  font-family: "Feather Icons";
+}
+
+.ff-phone-forwarded::before {
+  content: "\eab8";
+  font-family: "Feather Icons";
+}
+
+.ff-phone-incoming::before {
+  content: "\eab9";
+  font-family: "Feather Icons";
+}
+
+.ff-phone-missed::before {
+  content: "\eaba";
+  font-family: "Feather Icons";
+}
+
+.ff-phone-off::before {
+  content: "\eabb";
+  font-family: "Feather Icons";
+}
+
+.ff-phone-outgoing::before {
+  content: "\eabc";
+  font-family: "Feather Icons";
+}
+
+.ff-phone::before {
+  content: "\eabd";
+  font-family: "Feather Icons";
+}
+
+.ff-pie-chart::before {
+  content: "\eabe";
+  font-family: "Feather Icons";
+}
+
+.ff-play-circle::before {
+  content: "\eabf";
+  font-family: "Feather Icons";
+}
+
+.ff-play::before {
+  content: "\eac0";
+  font-family: "Feather Icons";
+}
+
+.ff-plus-circle::before {
+  content: "\eac1";
+  font-family: "Feather Icons";
+}
+
+.ff-plus-square::before {
+  content: "\eac2";
+  font-family: "Feather Icons";
+}
+
+.ff-plus::before {
+  content: "\eac3";
+  font-family: "Feather Icons";
+}
+
+.ff-pocket::before {
+  content: "\eac4";
+  font-family: "Feather Icons";
+}
+
+.ff-power::before {
+  content: "\eac5";
+  font-family: "Feather Icons";
+}
+
+.ff-printer::before {
+  content: "\eac6";
+  font-family: "Feather Icons";
+}
+
+.ff-radio::before {
+  content: "\eac7";
+  font-family: "Feather Icons";
+}
+
+.ff-refresh-ccw::before {
+  content: "\eac8";
+  font-family: "Feather Icons";
+}
+
+.ff-refresh-cw::before {
+  content: "\eac9";
+  font-family: "Feather Icons";
+}
+
+.ff-repeat::before {
+  content: "\eaca";
+  font-family: "Feather Icons";
+}
+
+.ff-rewind::before {
+  content: "\eacb";
+  font-family: "Feather Icons";
+}
+
+.ff-rotate-ccw::before {
+  content: "\eacc";
+  font-family: "Feather Icons";
+}
+
+.ff-rotate-cw::before {
+  content: "\eacd";
+  font-family: "Feather Icons";
+}
+
+.ff-rss::before {
+  content: "\eace";
+  font-family: "Feather Icons";
+}
+
+.ff-save::before {
+  content: "\eacf";
+  font-family: "Feather Icons";
+}
+
+.ff-scissors::before {
+  content: "\ead0";
+  font-family: "Feather Icons";
+}
+
+.ff-search::before {
+  content: "\ead1";
+  font-family: "Feather Icons";
+}
+
+.ff-send::before {
+  content: "\ead2";
+  font-family: "Feather Icons";
+}
+
+.ff-server::before {
+  content: "\ead3";
+  font-family: "Feather Icons";
+}
+
+.ff-settings::before {
+  content: "\ead4";
+  font-family: "Feather Icons";
+}
+
+.ff-share-2::before {
+  content: "\ead5";
+  font-family: "Feather Icons";
+}
+
+.ff-share::before {
+  content: "\ead6";
+  font-family: "Feather Icons";
+}
+
+.ff-shield-off::before {
+  content: "\ead7";
+  font-family: "Feather Icons";
+}
+
+.ff-shield::before {
+  content: "\ead8";
+  font-family: "Feather Icons";
+}
+
+.ff-shopping-bag::before {
+  content: "\ead9";
+  font-family: "Feather Icons";
+}
+
+.ff-shopping-cart::before {
+  content: "\eada";
+  font-family: "Feather Icons";
+}
+
+.ff-shuffle::before {
+  content: "\eadb";
+  font-family: "Feather Icons";
+}
+
+.ff-sidebar::before {
+  content: "\eadc";
+  font-family: "Feather Icons";
+}
+
+.ff-skip-back::before {
+  content: "\eadd";
+  font-family: "Feather Icons";
+}
+
+.ff-skip-forward::before {
+  content: "\eade";
+  font-family: "Feather Icons";
+}
+
+.ff-slack::before {
+  content: "\eadf";
+  font-family: "Feather Icons";
+}
+
+.ff-slash::before {
+  content: "\eae0";
+  font-family: "Feather Icons";
+}
+
+.ff-sliders::before {
+  content: "\eae1";
+  font-family: "Feather Icons";
+}
+
+.ff-smartphone::before {
+  content: "\eae2";
+  font-family: "Feather Icons";
+}
+
+.ff-smile::before {
+  content: "\eae3";
+  font-family: "Feather Icons";
+}
+
+.ff-speaker::before {
+  content: "\eae4";
+  font-family: "Feather Icons";
+}
+
+.ff-square::before {
+  content: "\eae5";
+  font-family: "Feather Icons";
+}
+
+.ff-star::before {
+  content: "\eae6";
+  font-family: "Feather Icons";
+}
+
+.ff-stop-circle::before {
+  content: "\eae7";
+  font-family: "Feather Icons";
+}
+
+.ff-sun::before {
+  content: "\eae8";
+  font-family: "Feather Icons";
+}
+
+.ff-sunrise::before {
+  content: "\eae9";
+  font-family: "Feather Icons";
+}
+
+.ff-sunset::before {
+  content: "\eaea";
+  font-family: "Feather Icons";
+}
+
+.ff-table::before {
+  content: "\eaeb";
+  font-family: "Feather Icons";
+}
+
+.ff-tablet::before {
+  content: "\eaec";
+  font-family: "Feather Icons";
+}
+
+.ff-tag::before {
+  content: "\eaed";
+  font-family: "Feather Icons";
+}
+
+.ff-target::before {
+  content: "\eaee";
+  font-family: "Feather Icons";
+}
+
+.ff-terminal::before {
+  content: "\eaef";
+  font-family: "Feather Icons";
+}
+
+.ff-thermometer::before {
+  content: "\eaf0";
+  font-family: "Feather Icons";
+}
+
+.ff-thumbs-down::before {
+  content: "\eaf1";
+  font-family: "Feather Icons";
+}
+
+.ff-thumbs-up::before {
+  content: "\eaf2";
+  font-family: "Feather Icons";
+}
+
+.ff-toggle-left::before {
+  content: "\eaf3";
+  font-family: "Feather Icons";
+}
+
+.ff-toggle-right::before {
+  content: "\eaf4";
+  font-family: "Feather Icons";
+}
+
+.ff-tool::before {
+  content: "\eaf5";
+  font-family: "Feather Icons";
+}
+
+.ff-trash-2::before {
+  content: "\eaf6";
+  font-family: "Feather Icons";
+}
+
+.ff-trash::before {
+  content: "\eaf7";
+  font-family: "Feather Icons";
+}
+
+.ff-trello::before {
+  content: "\eaf8";
+  font-family: "Feather Icons";
+}
+
+.ff-trending-down::before {
+  content: "\eaf9";
+  font-family: "Feather Icons";
+}
+
+.ff-trending-up::before {
+  content: "\eafa";
+  font-family: "Feather Icons";
+}
+
+.ff-triangle::before {
+  content: "\eafb";
+  font-family: "Feather Icons";
+}
+
+.ff-truck::before {
+  content: "\eafc";
+  font-family: "Feather Icons";
+}
+
+.ff-tv::before {
+  content: "\eafd";
+  font-family: "Feather Icons";
+}
+
+.ff-twitch::before {
+  content: "\eafe";
+  font-family: "Feather Icons";
+}
+
+.ff-twitter::before {
+  content: "\eaff";
+  font-family: "Feather Icons";
+}
+
+.ff-type::before {
+  content: "\eb00";
+  font-family: "Feather Icons";
+}
+
+.ff-umbrella::before {
+  content: "\eb01";
+  font-family: "Feather Icons";
+}
+
+.ff-underline::before {
+  content: "\eb02";
+  font-family: "Feather Icons";
+}
+
+.ff-unlock::before {
+  content: "\eb03";
+  font-family: "Feather Icons";
+}
+
+.ff-upload-cloud::before {
+  content: "\eb04";
+  font-family: "Feather Icons";
+}
+
+.ff-upload::before {
+  content: "\eb05";
+  font-family: "Feather Icons";
+}
+
+.ff-user-check::before {
+  content: "\eb06";
+  font-family: "Feather Icons";
+}
+
+.ff-user-minus::before {
+  content: "\eb07";
+  font-family: "Feather Icons";
+}
+
+.ff-user-plus::before {
+  content: "\eb08";
+  font-family: "Feather Icons";
+}
+
+.ff-user-x::before {
+  content: "\eb09";
+  font-family: "Feather Icons";
+}
+
+.ff-user::before {
+  content: "\eb0a";
+  font-family: "Feather Icons";
+}
+
+.ff-users::before {
+  content: "\eb0b";
+  font-family: "Feather Icons";
+}
+
+.ff-video-off::before {
+  content: "\eb0c";
+  font-family: "Feather Icons";
+}
+
+.ff-video::before {
+  content: "\eb0d";
+  font-family: "Feather Icons";
+}
+
+.ff-voicemail::before {
+  content: "\eb0e";
+  font-family: "Feather Icons";
+}
+
+.ff-volume-1::before {
+  content: "\eb0f";
+  font-family: "Feather Icons";
+}
+
+.ff-volume-2::before {
+  content: "\eb10";
+  font-family: "Feather Icons";
+}
+
+.ff-volume-x::before {
+  content: "\eb11";
+  font-family: "Feather Icons";
+}
+
+.ff-volume::before {
+  content: "\eb12";
+  font-family: "Feather Icons";
+}
+
+.ff-watch::before {
+  content: "\eb13";
+  font-family: "Feather Icons";
+}
+
+.ff-wifi-off::before {
+  content: "\eb14";
+  font-family: "Feather Icons";
+}
+
+.ff-wifi::before {
+  content: "\eb15";
+  font-family: "Feather Icons";
+}
+
+.ff-wind::before {
+  content: "\eb16";
+  font-family: "Feather Icons";
+}
+
+.ff-x-circle::before {
+  content: "\eb17";
+  font-family: "Feather Icons";
+}
+
+.ff-x-octagon::before {
+  content: "\eb18";
+  font-family: "Feather Icons";
+}
+
+.ff-x-square::before {
+  content: "\eb19";
+  font-family: "Feather Icons";
+}
+
+.ff-x::before {
+  content: "\eb1a";
+  font-family: "Feather Icons";
+}
+
+.ff-youtube::before {
+  content: "\eb1b";
+  font-family: "Feather Icons";
+}
+
+.ff-zap-off::before {
+  content: "\eb1c";
+  font-family: "Feather Icons";
+}
+
+.ff-zap::before {
+  content: "\eb1d";
+  font-family: "Feather Icons";
+}
+
+.ff-zoom-in::before {
+  content: "\eb1e";
+  font-family: "Feather Icons";
+}
+
+.ff-zoom-out::before {
+  content: "\eb1f";
+  font-family: "Feather Icons";
+}
