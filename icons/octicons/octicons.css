@@ -1,0 +1,2444 @@
+@font-face {
+    font-family: "octicons";
+    src: url("./octicons.eot?7b39969d8dd1544a4b1ef8de3a611a7e#iefix") format("embedded-opentype"),
+url("./octicons.woff2?7b39969d8dd1544a4b1ef8de3a611a7e") format("woff2"),
+url("./octicons.woff?7b39969d8dd1544a4b1ef8de3a611a7e") format("woff");
+}
+
+.octicon:before,
+i[class^="octicon-"]:before,
+i[class*=" octicon-"]:before
+{
+    font-family: octicons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -0.125em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.octicon {
+    display: inline-block;
+    vertical-align: text-top;
+    fill: currentColor;
+    overflow: visible;
+}
+
+.octicon-accessibility-16:before {
+    content: "\f101";
+}
+
+.octicon-accessibility-inset-16:before {
+    content: "\f102";
+}
+
+.octicon-alert-16:before {
+    content: "\f103";
+}
+
+.octicon-alert-24:before {
+    content: "\f104";
+}
+
+.octicon-alert-fill-12:before {
+    content: "\f105";
+}
+
+.octicon-alert-fill-16:before {
+    content: "\f106";
+}
+
+.octicon-alert-fill-24:before {
+    content: "\f107";
+}
+
+.octicon-apps-16:before {
+    content: "\f108";
+}
+
+.octicon-archive-16:before {
+    content: "\f109";
+}
+
+.octicon-archive-24:before {
+    content: "\f10a";
+}
+
+.octicon-arrow-both-16:before {
+    content: "\f10b";
+}
+
+.octicon-arrow-both-24:before {
+    content: "\f10c";
+}
+
+.octicon-arrow-down-16:before {
+    content: "\f10d";
+}
+
+.octicon-arrow-down-24:before {
+    content: "\f10e";
+}
+
+.octicon-arrow-down-left-16:before {
+    content: "\f10f";
+}
+
+.octicon-arrow-down-left-24:before {
+    content: "\f110";
+}
+
+.octicon-arrow-down-right-16:before {
+    content: "\f111";
+}
+
+.octicon-arrow-down-right-24:before {
+    content: "\f112";
+}
+
+.octicon-arrow-left-16:before {
+    content: "\f113";
+}
+
+.octicon-arrow-left-24:before {
+    content: "\f114";
+}
+
+.octicon-arrow-right-16:before {
+    content: "\f115";
+}
+
+.octicon-arrow-right-24:before {
+    content: "\f116";
+}
+
+.octicon-arrow-switch-16:before {
+    content: "\f117";
+}
+
+.octicon-arrow-switch-24:before {
+    content: "\f118";
+}
+
+.octicon-arrow-up-16:before {
+    content: "\f119";
+}
+
+.octicon-arrow-up-24:before {
+    content: "\f11a";
+}
+
+.octicon-arrow-up-left-16:before {
+    content: "\f11b";
+}
+
+.octicon-arrow-up-left-24:before {
+    content: "\f11c";
+}
+
+.octicon-arrow-up-right-16:before {
+    content: "\f11d";
+}
+
+.octicon-arrow-up-right-24:before {
+    content: "\f11e";
+}
+
+.octicon-beaker-16:before {
+    content: "\f11f";
+}
+
+.octicon-beaker-24:before {
+    content: "\f120";
+}
+
+.octicon-bell-16:before {
+    content: "\f121";
+}
+
+.octicon-bell-24:before {
+    content: "\f122";
+}
+
+.octicon-bell-fill-16:before {
+    content: "\f123";
+}
+
+.octicon-bell-fill-24:before {
+    content: "\f124";
+}
+
+.octicon-bell-slash-16:before {
+    content: "\f125";
+}
+
+.octicon-bell-slash-24:before {
+    content: "\f126";
+}
+
+.octicon-blocked-16:before {
+    content: "\f127";
+}
+
+.octicon-blocked-24:before {
+    content: "\f128";
+}
+
+.octicon-bold-16:before {
+    content: "\f129";
+}
+
+.octicon-bold-24:before {
+    content: "\f12a";
+}
+
+.octicon-book-16:before {
+    content: "\f12b";
+}
+
+.octicon-book-24:before {
+    content: "\f12c";
+}
+
+.octicon-bookmark-16:before {
+    content: "\f12d";
+}
+
+.octicon-bookmark-24:before {
+    content: "\f12e";
+}
+
+.octicon-bookmark-fill-24:before {
+    content: "\f12f";
+}
+
+.octicon-bookmark-slash-16:before {
+    content: "\f130";
+}
+
+.octicon-bookmark-slash-24:before {
+    content: "\f131";
+}
+
+.octicon-bookmark-slash-fill-24:before {
+    content: "\f132";
+}
+
+.octicon-briefcase-16:before {
+    content: "\f133";
+}
+
+.octicon-briefcase-24:before {
+    content: "\f134";
+}
+
+.octicon-broadcast-16:before {
+    content: "\f135";
+}
+
+.octicon-broadcast-24:before {
+    content: "\f136";
+}
+
+.octicon-browser-16:before {
+    content: "\f137";
+}
+
+.octicon-browser-24:before {
+    content: "\f138";
+}
+
+.octicon-bug-16:before {
+    content: "\f139";
+}
+
+.octicon-bug-24:before {
+    content: "\f13a";
+}
+
+.octicon-cache-16:before {
+    content: "\f13b";
+}
+
+.octicon-calendar-16:before {
+    content: "\f13c";
+}
+
+.octicon-calendar-24:before {
+    content: "\f13d";
+}
+
+.octicon-check-16:before {
+    content: "\f13e";
+}
+
+.octicon-check-24:before {
+    content: "\f13f";
+}
+
+.octicon-check-circle-16:before {
+    content: "\f140";
+}
+
+.octicon-check-circle-24:before {
+    content: "\f141";
+}
+
+.octicon-check-circle-fill-12:before {
+    content: "\f142";
+}
+
+.octicon-check-circle-fill-16:before {
+    content: "\f143";
+}
+
+.octicon-check-circle-fill-24:before {
+    content: "\f144";
+}
+
+.octicon-checkbox-16:before {
+    content: "\f145";
+}
+
+.octicon-checkbox-24:before {
+    content: "\f146";
+}
+
+.octicon-checklist-16:before {
+    content: "\f147";
+}
+
+.octicon-checklist-24:before {
+    content: "\f148";
+}
+
+.octicon-chevron-down-12:before {
+    content: "\f149";
+}
+
+.octicon-chevron-down-16:before {
+    content: "\f14a";
+}
+
+.octicon-chevron-down-24:before {
+    content: "\f14b";
+}
+
+.octicon-chevron-left-16:before {
+    content: "\f14c";
+}
+
+.octicon-chevron-left-24:before {
+    content: "\f14d";
+}
+
+.octicon-chevron-right-12:before {
+    content: "\f14e";
+}
+
+.octicon-chevron-right-16:before {
+    content: "\f14f";
+}
+
+.octicon-chevron-right-24:before {
+    content: "\f150";
+}
+
+.octicon-chevron-up-12:before {
+    content: "\f151";
+}
+
+.octicon-chevron-up-16:before {
+    content: "\f152";
+}
+
+.octicon-chevron-up-24:before {
+    content: "\f153";
+}
+
+.octicon-circle-16:before {
+    content: "\f154";
+}
+
+.octicon-circle-24:before {
+    content: "\f155";
+}
+
+.octicon-circle-slash-16:before {
+    content: "\f156";
+}
+
+.octicon-circle-slash-24:before {
+    content: "\f157";
+}
+
+.octicon-clock-16:before {
+    content: "\f158";
+}
+
+.octicon-clock-24:before {
+    content: "\f159";
+}
+
+.octicon-clock-fill-16:before {
+    content: "\f15a";
+}
+
+.octicon-clock-fill-24:before {
+    content: "\f15b";
+}
+
+.octicon-cloud-16:before {
+    content: "\f15c";
+}
+
+.octicon-cloud-24:before {
+    content: "\f15d";
+}
+
+.octicon-cloud-offline-16:before {
+    content: "\f15e";
+}
+
+.octicon-cloud-offline-24:before {
+    content: "\f15f";
+}
+
+.octicon-code-16:before {
+    content: "\f160";
+}
+
+.octicon-code-24:before {
+    content: "\f161";
+}
+
+.octicon-code-of-conduct-16:before {
+    content: "\f162";
+}
+
+.octicon-code-of-conduct-24:before {
+    content: "\f163";
+}
+
+.octicon-code-review-16:before {
+    content: "\f164";
+}
+
+.octicon-code-review-24:before {
+    content: "\f165";
+}
+
+.octicon-code-square-16:before {
+    content: "\f166";
+}
+
+.octicon-code-square-24:before {
+    content: "\f167";
+}
+
+.octicon-codescan-16:before {
+    content: "\f168";
+}
+
+.octicon-codescan-24:before {
+    content: "\f169";
+}
+
+.octicon-codescan-checkmark-16:before {
+    content: "\f16a";
+}
+
+.octicon-codescan-checkmark-24:before {
+    content: "\f16b";
+}
+
+.octicon-codespaces-16:before {
+    content: "\f16c";
+}
+
+.octicon-codespaces-24:before {
+    content: "\f16d";
+}
+
+.octicon-columns-16:before {
+    content: "\f16e";
+}
+
+.octicon-columns-24:before {
+    content: "\f16f";
+}
+
+.octicon-command-palette-16:before {
+    content: "\f170";
+}
+
+.octicon-command-palette-24:before {
+    content: "\f171";
+}
+
+.octicon-comment-16:before {
+    content: "\f172";
+}
+
+.octicon-comment-24:before {
+    content: "\f173";
+}
+
+.octicon-comment-discussion-16:before {
+    content: "\f174";
+}
+
+.octicon-comment-discussion-24:before {
+    content: "\f175";
+}
+
+.octicon-commit-24:before {
+    content: "\f176";
+}
+
+.octicon-container-16:before {
+    content: "\f177";
+}
+
+.octicon-container-24:before {
+    content: "\f178";
+}
+
+.octicon-copilot-16:before {
+    content: "\f179";
+}
+
+.octicon-copilot-24:before {
+    content: "\f17a";
+}
+
+.octicon-copilot-48:before {
+    content: "\f17b";
+}
+
+.octicon-copilot-96:before {
+    content: "\f17c";
+}
+
+.octicon-copilot-error-16:before {
+    content: "\f17d";
+}
+
+.octicon-copilot-warning-16:before {
+    content: "\f17e";
+}
+
+.octicon-copy-16:before {
+    content: "\f17f";
+}
+
+.octicon-copy-24:before {
+    content: "\f180";
+}
+
+.octicon-cpu-16:before {
+    content: "\f181";
+}
+
+.octicon-cpu-24:before {
+    content: "\f182";
+}
+
+.octicon-credit-card-16:before {
+    content: "\f183";
+}
+
+.octicon-credit-card-24:before {
+    content: "\f184";
+}
+
+.octicon-cross-reference-16:before {
+    content: "\f185";
+}
+
+.octicon-cross-reference-24:before {
+    content: "\f186";
+}
+
+.octicon-dash-16:before {
+    content: "\f187";
+}
+
+.octicon-dash-24:before {
+    content: "\f188";
+}
+
+.octicon-database-16:before {
+    content: "\f189";
+}
+
+.octicon-database-24:before {
+    content: "\f18a";
+}
+
+.octicon-dependabot-16:before {
+    content: "\f18b";
+}
+
+.octicon-dependabot-24:before {
+    content: "\f18c";
+}
+
+.octicon-desktop-download-16:before {
+    content: "\f18d";
+}
+
+.octicon-desktop-download-24:before {
+    content: "\f18e";
+}
+
+.octicon-device-camera-16:before {
+    content: "\f18f";
+}
+
+.octicon-device-camera-video-16:before {
+    content: "\f190";
+}
+
+.octicon-device-camera-video-24:before {
+    content: "\f191";
+}
+
+.octicon-device-desktop-16:before {
+    content: "\f192";
+}
+
+.octicon-device-desktop-24:before {
+    content: "\f193";
+}
+
+.octicon-device-mobile-16:before {
+    content: "\f194";
+}
+
+.octicon-device-mobile-24:before {
+    content: "\f195";
+}
+
+.octicon-devices-16:before {
+    content: "\f196";
+}
+
+.octicon-devices-24:before {
+    content: "\f197";
+}
+
+.octicon-diamond-16:before {
+    content: "\f198";
+}
+
+.octicon-diamond-24:before {
+    content: "\f199";
+}
+
+.octicon-diff-16:before {
+    content: "\f19a";
+}
+
+.octicon-diff-24:before {
+    content: "\f19b";
+}
+
+.octicon-diff-added-16:before {
+    content: "\f19c";
+}
+
+.octicon-diff-ignored-16:before {
+    content: "\f19d";
+}
+
+.octicon-diff-modified-16:before {
+    content: "\f19e";
+}
+
+.octicon-diff-removed-16:before {
+    content: "\f19f";
+}
+
+.octicon-diff-renamed-16:before {
+    content: "\f1a0";
+}
+
+.octicon-discussion-closed-16:before {
+    content: "\f1a1";
+}
+
+.octicon-discussion-closed-24:before {
+    content: "\f1a2";
+}
+
+.octicon-discussion-duplicate-16:before {
+    content: "\f1a3";
+}
+
+.octicon-discussion-duplicate-24:before {
+    content: "\f1a4";
+}
+
+.octicon-discussion-outdated-16:before {
+    content: "\f1a5";
+}
+
+.octicon-discussion-outdated-24:before {
+    content: "\f1a6";
+}
+
+.octicon-dot-16:before {
+    content: "\f1a7";
+}
+
+.octicon-dot-24:before {
+    content: "\f1a8";
+}
+
+.octicon-dot-fill-16:before {
+    content: "\f1a9";
+}
+
+.octicon-dot-fill-24:before {
+    content: "\f1aa";
+}
+
+.octicon-download-16:before {
+    content: "\f1ab";
+}
+
+.octicon-download-24:before {
+    content: "\f1ac";
+}
+
+.octicon-duplicate-16:before {
+    content: "\f1ad";
+}
+
+.octicon-duplicate-24:before {
+    content: "\f1ae";
+}
+
+.octicon-ellipsis-16:before {
+    content: "\f1af";
+}
+
+.octicon-eye-16:before {
+    content: "\f1b0";
+}
+
+.octicon-eye-24:before {
+    content: "\f1b1";
+}
+
+.octicon-eye-closed-16:before {
+    content: "\f1b2";
+}
+
+.octicon-eye-closed-24:before {
+    content: "\f1b3";
+}
+
+.octicon-feed-discussion-16:before {
+    content: "\f1b4";
+}
+
+.octicon-feed-forked-16:before {
+    content: "\f1b5";
+}
+
+.octicon-feed-heart-16:before {
+    content: "\f1b6";
+}
+
+.octicon-feed-issue-closed-16:before {
+    content: "\f1b7";
+}
+
+.octicon-feed-issue-draft-16:before {
+    content: "\f1b8";
+}
+
+.octicon-feed-issue-open-16:before {
+    content: "\f1b9";
+}
+
+.octicon-feed-issue-reopen-16:before {
+    content: "\f1ba";
+}
+
+.octicon-feed-merged-16:before {
+    content: "\f1bb";
+}
+
+.octicon-feed-person-16:before {
+    content: "\f1bc";
+}
+
+.octicon-feed-plus-16:before {
+    content: "\f1bd";
+}
+
+.octicon-feed-public-16:before {
+    content: "\f1be";
+}
+
+.octicon-feed-pull-request-closed-16:before {
+    content: "\f1bf";
+}
+
+.octicon-feed-pull-request-draft-16:before {
+    content: "\f1c0";
+}
+
+.octicon-feed-pull-request-open-16:before {
+    content: "\f1c1";
+}
+
+.octicon-feed-repo-16:before {
+    content: "\f1c2";
+}
+
+.octicon-feed-rocket-16:before {
+    content: "\f1c3";
+}
+
+.octicon-feed-star-16:before {
+    content: "\f1c4";
+}
+
+.octicon-feed-tag-16:before {
+    content: "\f1c5";
+}
+
+.octicon-feed-trophy-16:before {
+    content: "\f1c6";
+}
+
+.octicon-file-16:before {
+    content: "\f1c7";
+}
+
+.octicon-file-24:before {
+    content: "\f1c8";
+}
+
+.octicon-file-added-16:before {
+    content: "\f1c9";
+}
+
+.octicon-file-badge-16:before {
+    content: "\f1ca";
+}
+
+.octicon-file-binary-16:before {
+    content: "\f1cb";
+}
+
+.octicon-file-binary-24:before {
+    content: "\f1cc";
+}
+
+.octicon-file-code-16:before {
+    content: "\f1cd";
+}
+
+.octicon-file-code-24:before {
+    content: "\f1ce";
+}
+
+.octicon-file-diff-16:before {
+    content: "\f1cf";
+}
+
+.octicon-file-diff-24:before {
+    content: "\f1d0";
+}
+
+.octicon-file-directory-16:before {
+    content: "\f1d1";
+}
+
+.octicon-file-directory-24:before {
+    content: "\f1d2";
+}
+
+.octicon-file-directory-fill-16:before {
+    content: "\f1d3";
+}
+
+.octicon-file-directory-fill-24:before {
+    content: "\f1d4";
+}
+
+.octicon-file-directory-open-fill-16:before {
+    content: "\f1d5";
+}
+
+.octicon-file-directory-symlink-16:before {
+    content: "\f1d6";
+}
+
+.octicon-file-directory-symlink-24:before {
+    content: "\f1d7";
+}
+
+.octicon-file-media-24:before {
+    content: "\f1d8";
+}
+
+.octicon-file-moved-16:before {
+    content: "\f1d9";
+}
+
+.octicon-file-removed-16:before {
+    content: "\f1da";
+}
+
+.octicon-file-submodule-16:before {
+    content: "\f1db";
+}
+
+.octicon-file-submodule-24:before {
+    content: "\f1dc";
+}
+
+.octicon-file-symlink-file-16:before {
+    content: "\f1dd";
+}
+
+.octicon-file-symlink-file-24:before {
+    content: "\f1de";
+}
+
+.octicon-file-zip-16:before {
+    content: "\f1df";
+}
+
+.octicon-file-zip-24:before {
+    content: "\f1e0";
+}
+
+.octicon-filter-16:before {
+    content: "\f1e1";
+}
+
+.octicon-filter-24:before {
+    content: "\f1e2";
+}
+
+.octicon-filter-remove-16:before {
+    content: "\f1e3";
+}
+
+.octicon-filter-remove-24:before {
+    content: "\f1e4";
+}
+
+.octicon-fiscal-host-16:before {
+    content: "\f1e5";
+}
+
+.octicon-flame-16:before {
+    content: "\f1e6";
+}
+
+.octicon-flame-24:before {
+    content: "\f1e7";
+}
+
+.octicon-fold-16:before {
+    content: "\f1e8";
+}
+
+.octicon-fold-24:before {
+    content: "\f1e9";
+}
+
+.octicon-fold-down-16:before {
+    content: "\f1ea";
+}
+
+.octicon-fold-down-24:before {
+    content: "\f1eb";
+}
+
+.octicon-fold-up-16:before {
+    content: "\f1ec";
+}
+
+.octicon-fold-up-24:before {
+    content: "\f1ed";
+}
+
+.octicon-gear-16:before {
+    content: "\f1ee";
+}
+
+.octicon-gear-24:before {
+    content: "\f1ef";
+}
+
+.octicon-gift-16:before {
+    content: "\f1f0";
+}
+
+.octicon-gift-24:before {
+    content: "\f1f1";
+}
+
+.octicon-git-branch-16:before {
+    content: "\f1f2";
+}
+
+.octicon-git-branch-24:before {
+    content: "\f1f3";
+}
+
+.octicon-git-commit-16:before {
+    content: "\f1f4";
+}
+
+.octicon-git-commit-24:before {
+    content: "\f1f5";
+}
+
+.octicon-git-compare-16:before {
+    content: "\f1f6";
+}
+
+.octicon-git-compare-24:before {
+    content: "\f1f7";
+}
+
+.octicon-git-merge-16:before {
+    content: "\f1f8";
+}
+
+.octicon-git-merge-24:before {
+    content: "\f1f9";
+}
+
+.octicon-git-merge-queue-16:before {
+    content: "\f1fa";
+}
+
+.octicon-git-merge-queue-24:before {
+    content: "\f1fb";
+}
+
+.octicon-git-pull-request-16:before {
+    content: "\f1fc";
+}
+
+.octicon-git-pull-request-24:before {
+    content: "\f1fd";
+}
+
+.octicon-git-pull-request-closed-16:before {
+    content: "\f1fe";
+}
+
+.octicon-git-pull-request-closed-24:before {
+    content: "\f1ff";
+}
+
+.octicon-git-pull-request-draft-16:before {
+    content: "\f200";
+}
+
+.octicon-git-pull-request-draft-24:before {
+    content: "\f201";
+}
+
+.octicon-globe-16:before {
+    content: "\f202";
+}
+
+.octicon-globe-24:before {
+    content: "\f203";
+}
+
+.octicon-goal-16:before {
+    content: "\f204";
+}
+
+.octicon-goal-24:before {
+    content: "\f205";
+}
+
+.octicon-grabber-16:before {
+    content: "\f206";
+}
+
+.octicon-grabber-24:before {
+    content: "\f207";
+}
+
+.octicon-graph-16:before {
+    content: "\f208";
+}
+
+.octicon-graph-24:before {
+    content: "\f209";
+}
+
+.octicon-hash-16:before {
+    content: "\f20a";
+}
+
+.octicon-hash-24:before {
+    content: "\f20b";
+}
+
+.octicon-heading-16:before {
+    content: "\f20c";
+}
+
+.octicon-heading-24:before {
+    content: "\f20d";
+}
+
+.octicon-heart-16:before {
+    content: "\f20e";
+}
+
+.octicon-heart-24:before {
+    content: "\f20f";
+}
+
+.octicon-heart-fill-16:before {
+    content: "\f210";
+}
+
+.octicon-heart-fill-24:before {
+    content: "\f211";
+}
+
+.octicon-history-16:before {
+    content: "\f212";
+}
+
+.octicon-history-24:before {
+    content: "\f213";
+}
+
+.octicon-home-16:before {
+    content: "\f214";
+}
+
+.octicon-home-24:before {
+    content: "\f215";
+}
+
+.octicon-home-fill-24:before {
+    content: "\f216";
+}
+
+.octicon-horizontal-rule-16:before {
+    content: "\f217";
+}
+
+.octicon-horizontal-rule-24:before {
+    content: "\f218";
+}
+
+.octicon-hourglass-16:before {
+    content: "\f219";
+}
+
+.octicon-hourglass-24:before {
+    content: "\f21a";
+}
+
+.octicon-hubot-16:before {
+    content: "\f21b";
+}
+
+.octicon-hubot-24:before {
+    content: "\f21c";
+}
+
+.octicon-id-badge-16:before {
+    content: "\f21d";
+}
+
+.octicon-image-16:before {
+    content: "\f21e";
+}
+
+.octicon-image-24:before {
+    content: "\f21f";
+}
+
+.octicon-inbox-16:before {
+    content: "\f220";
+}
+
+.octicon-inbox-24:before {
+    content: "\f221";
+}
+
+.octicon-infinity-16:before {
+    content: "\f222";
+}
+
+.octicon-infinity-24:before {
+    content: "\f223";
+}
+
+.octicon-info-16:before {
+    content: "\f224";
+}
+
+.octicon-info-24:before {
+    content: "\f225";
+}
+
+.octicon-issue-closed-16:before {
+    content: "\f226";
+}
+
+.octicon-issue-closed-24:before {
+    content: "\f227";
+}
+
+.octicon-issue-draft-16:before {
+    content: "\f228";
+}
+
+.octicon-issue-draft-24:before {
+    content: "\f229";
+}
+
+.octicon-issue-opened-16:before {
+    content: "\f22a";
+}
+
+.octicon-issue-opened-24:before {
+    content: "\f22b";
+}
+
+.octicon-issue-reopened-16:before {
+    content: "\f22c";
+}
+
+.octicon-issue-reopened-24:before {
+    content: "\f22d";
+}
+
+.octicon-issue-tracked-by-16:before {
+    content: "\f22e";
+}
+
+.octicon-issue-tracked-by-24:before {
+    content: "\f22f";
+}
+
+.octicon-issue-tracks-16:before {
+    content: "\f230";
+}
+
+.octicon-issue-tracks-24:before {
+    content: "\f231";
+}
+
+.octicon-italic-16:before {
+    content: "\f232";
+}
+
+.octicon-italic-24:before {
+    content: "\f233";
+}
+
+.octicon-iterations-16:before {
+    content: "\f234";
+}
+
+.octicon-iterations-24:before {
+    content: "\f235";
+}
+
+.octicon-kebab-horizontal-16:before {
+    content: "\f236";
+}
+
+.octicon-kebab-horizontal-24:before {
+    content: "\f237";
+}
+
+.octicon-key-16:before {
+    content: "\f238";
+}
+
+.octicon-key-24:before {
+    content: "\f239";
+}
+
+.octicon-key-asterisk-16:before {
+    content: "\f23a";
+}
+
+.octicon-law-16:before {
+    content: "\f23b";
+}
+
+.octicon-law-24:before {
+    content: "\f23c";
+}
+
+.octicon-light-bulb-16:before {
+    content: "\f23d";
+}
+
+.octicon-light-bulb-24:before {
+    content: "\f23e";
+}
+
+.octicon-link-16:before {
+    content: "\f23f";
+}
+
+.octicon-link-24:before {
+    content: "\f240";
+}
+
+.octicon-link-external-16:before {
+    content: "\f241";
+}
+
+.octicon-link-external-24:before {
+    content: "\f242";
+}
+
+.octicon-list-ordered-16:before {
+    content: "\f243";
+}
+
+.octicon-list-ordered-24:before {
+    content: "\f244";
+}
+
+.octicon-list-unordered-16:before {
+    content: "\f245";
+}
+
+.octicon-list-unordered-24:before {
+    content: "\f246";
+}
+
+.octicon-location-16:before {
+    content: "\f247";
+}
+
+.octicon-location-24:before {
+    content: "\f248";
+}
+
+.octicon-lock-16:before {
+    content: "\f249";
+}
+
+.octicon-lock-24:before {
+    content: "\f24a";
+}
+
+.octicon-log-16:before {
+    content: "\f24b";
+}
+
+.octicon-log-24:before {
+    content: "\f24c";
+}
+
+.octicon-logo-gist-16:before {
+    content: "\f24d";
+}
+
+.octicon-logo-github-16:before {
+    content: "\f24e";
+}
+
+.octicon-mail-16:before {
+    content: "\f24f";
+}
+
+.octicon-mail-24:before {
+    content: "\f250";
+}
+
+.octicon-mark-github-16:before {
+    content: "\f251";
+}
+
+.octicon-markdown-16:before {
+    content: "\f252";
+}
+
+.octicon-megaphone-16:before {
+    content: "\f253";
+}
+
+.octicon-megaphone-24:before {
+    content: "\f254";
+}
+
+.octicon-mention-16:before {
+    content: "\f255";
+}
+
+.octicon-mention-24:before {
+    content: "\f256";
+}
+
+.octicon-meter-16:before {
+    content: "\f257";
+}
+
+.octicon-milestone-16:before {
+    content: "\f258";
+}
+
+.octicon-milestone-24:before {
+    content: "\f259";
+}
+
+.octicon-mirror-16:before {
+    content: "\f25a";
+}
+
+.octicon-mirror-24:before {
+    content: "\f25b";
+}
+
+.octicon-moon-16:before {
+    content: "\f25c";
+}
+
+.octicon-moon-24:before {
+    content: "\f25d";
+}
+
+.octicon-mortar-board-16:before {
+    content: "\f25e";
+}
+
+.octicon-mortar-board-24:before {
+    content: "\f25f";
+}
+
+.octicon-move-to-bottom-16:before {
+    content: "\f260";
+}
+
+.octicon-move-to-bottom-24:before {
+    content: "\f261";
+}
+
+.octicon-move-to-end-16:before {
+    content: "\f262";
+}
+
+.octicon-move-to-end-24:before {
+    content: "\f263";
+}
+
+.octicon-move-to-start-16:before {
+    content: "\f264";
+}
+
+.octicon-move-to-start-24:before {
+    content: "\f265";
+}
+
+.octicon-move-to-top-16:before {
+    content: "\f266";
+}
+
+.octicon-move-to-top-24:before {
+    content: "\f267";
+}
+
+.octicon-multi-select-16:before {
+    content: "\f268";
+}
+
+.octicon-multi-select-24:before {
+    content: "\f269";
+}
+
+.octicon-mute-16:before {
+    content: "\f26a";
+}
+
+.octicon-mute-24:before {
+    content: "\f26b";
+}
+
+.octicon-no-entry-16:before {
+    content: "\f26c";
+}
+
+.octicon-no-entry-24:before {
+    content: "\f26d";
+}
+
+.octicon-no-entry-fill-12:before {
+    content: "\f26e";
+}
+
+.octicon-north-star-16:before {
+    content: "\f26f";
+}
+
+.octicon-north-star-24:before {
+    content: "\f270";
+}
+
+.octicon-note-16:before {
+    content: "\f271";
+}
+
+.octicon-note-24:before {
+    content: "\f272";
+}
+
+.octicon-number-16:before {
+    content: "\f273";
+}
+
+.octicon-number-24:before {
+    content: "\f274";
+}
+
+.octicon-organization-16:before {
+    content: "\f275";
+}
+
+.octicon-organization-24:before {
+    content: "\f276";
+}
+
+.octicon-package-16:before {
+    content: "\f277";
+}
+
+.octicon-package-24:before {
+    content: "\f278";
+}
+
+.octicon-package-dependencies-16:before {
+    content: "\f279";
+}
+
+.octicon-package-dependencies-24:before {
+    content: "\f27a";
+}
+
+.octicon-package-dependents-16:before {
+    content: "\f27b";
+}
+
+.octicon-package-dependents-24:before {
+    content: "\f27c";
+}
+
+.octicon-paintbrush-16:before {
+    content: "\f27d";
+}
+
+.octicon-paper-airplane-16:before {
+    content: "\f27e";
+}
+
+.octicon-paper-airplane-24:before {
+    content: "\f27f";
+}
+
+.octicon-paperclip-16:before {
+    content: "\f280";
+}
+
+.octicon-paperclip-24:before {
+    content: "\f281";
+}
+
+.octicon-passkey-fill-16:before {
+    content: "\f282";
+}
+
+.octicon-passkey-fill-24:before {
+    content: "\f283";
+}
+
+.octicon-paste-16:before {
+    content: "\f284";
+}
+
+.octicon-paste-24:before {
+    content: "\f285";
+}
+
+.octicon-pencil-16:before {
+    content: "\f286";
+}
+
+.octicon-pencil-24:before {
+    content: "\f287";
+}
+
+.octicon-people-16:before {
+    content: "\f288";
+}
+
+.octicon-people-24:before {
+    content: "\f289";
+}
+
+.octicon-person-16:before {
+    content: "\f28a";
+}
+
+.octicon-person-24:before {
+    content: "\f28b";
+}
+
+.octicon-person-add-16:before {
+    content: "\f28c";
+}
+
+.octicon-person-add-24:before {
+    content: "\f28d";
+}
+
+.octicon-person-fill-16:before {
+    content: "\f28e";
+}
+
+.octicon-person-fill-24:before {
+    content: "\f28f";
+}
+
+.octicon-pin-16:before {
+    content: "\f290";
+}
+
+.octicon-pin-24:before {
+    content: "\f291";
+}
+
+.octicon-pin-slash-16:before {
+    content: "\f292";
+}
+
+.octicon-pin-slash-24:before {
+    content: "\f293";
+}
+
+.octicon-pivot-column-16:before {
+    content: "\f294";
+}
+
+.octicon-pivot-column-24:before {
+    content: "\f295";
+}
+
+.octicon-play-16:before {
+    content: "\f296";
+}
+
+.octicon-play-24:before {
+    content: "\f297";
+}
+
+.octicon-plug-16:before {
+    content: "\f298";
+}
+
+.octicon-plug-24:before {
+    content: "\f299";
+}
+
+.octicon-plus-16:before {
+    content: "\f29a";
+}
+
+.octicon-plus-24:before {
+    content: "\f29b";
+}
+
+.octicon-plus-circle-16:before {
+    content: "\f29c";
+}
+
+.octicon-plus-circle-24:before {
+    content: "\f29d";
+}
+
+.octicon-project-16:before {
+    content: "\f29e";
+}
+
+.octicon-project-24:before {
+    content: "\f29f";
+}
+
+.octicon-project-roadmap-16:before {
+    content: "\f2a0";
+}
+
+.octicon-project-roadmap-24:before {
+    content: "\f2a1";
+}
+
+.octicon-project-symlink-16:before {
+    content: "\f2a2";
+}
+
+.octicon-project-symlink-24:before {
+    content: "\f2a3";
+}
+
+.octicon-project-template-16:before {
+    content: "\f2a4";
+}
+
+.octicon-project-template-24:before {
+    content: "\f2a5";
+}
+
+.octicon-pulse-16:before {
+    content: "\f2a6";
+}
+
+.octicon-pulse-24:before {
+    content: "\f2a7";
+}
+
+.octicon-question-16:before {
+    content: "\f2a8";
+}
+
+.octicon-question-24:before {
+    content: "\f2a9";
+}
+
+.octicon-quote-16:before {
+    content: "\f2aa";
+}
+
+.octicon-quote-24:before {
+    content: "\f2ab";
+}
+
+.octicon-read-16:before {
+    content: "\f2ac";
+}
+
+.octicon-read-24:before {
+    content: "\f2ad";
+}
+
+.octicon-redo-16:before {
+    content: "\f2ae";
+}
+
+.octicon-rel-file-path-16:before {
+    content: "\f2af";
+}
+
+.octicon-rel-file-path-24:before {
+    content: "\f2b0";
+}
+
+.octicon-reply-16:before {
+    content: "\f2b1";
+}
+
+.octicon-reply-24:before {
+    content: "\f2b2";
+}
+
+.octicon-repo-16:before {
+    content: "\f2b3";
+}
+
+.octicon-repo-24:before {
+    content: "\f2b4";
+}
+
+.octicon-repo-clone-16:before {
+    content: "\f2b5";
+}
+
+.octicon-repo-clone-24:before {
+    content: "\f2b6";
+}
+
+.octicon-repo-deleted-16:before {
+    content: "\f2b7";
+}
+
+.octicon-repo-forked-16:before {
+    content: "\f2b8";
+}
+
+.octicon-repo-forked-24:before {
+    content: "\f2b9";
+}
+
+.octicon-repo-locked-16:before {
+    content: "\f2ba";
+}
+
+.octicon-repo-locked-24:before {
+    content: "\f2bb";
+}
+
+.octicon-repo-pull-16:before {
+    content: "\f2bc";
+}
+
+.octicon-repo-pull-24:before {
+    content: "\f2bd";
+}
+
+.octicon-repo-push-16:before {
+    content: "\f2be";
+}
+
+.octicon-repo-push-24:before {
+    content: "\f2bf";
+}
+
+.octicon-repo-template-16:before {
+    content: "\f2c0";
+}
+
+.octicon-repo-template-24:before {
+    content: "\f2c1";
+}
+
+.octicon-report-16:before {
+    content: "\f2c2";
+}
+
+.octicon-report-24:before {
+    content: "\f2c3";
+}
+
+.octicon-rocket-16:before {
+    content: "\f2c4";
+}
+
+.octicon-rocket-24:before {
+    content: "\f2c5";
+}
+
+.octicon-rows-16:before {
+    content: "\f2c6";
+}
+
+.octicon-rows-24:before {
+    content: "\f2c7";
+}
+
+.octicon-rss-16:before {
+    content: "\f2c8";
+}
+
+.octicon-rss-24:before {
+    content: "\f2c9";
+}
+
+.octicon-ruby-16:before {
+    content: "\f2ca";
+}
+
+.octicon-ruby-24:before {
+    content: "\f2cb";
+}
+
+.octicon-screen-full-16:before {
+    content: "\f2cc";
+}
+
+.octicon-screen-full-24:before {
+    content: "\f2cd";
+}
+
+.octicon-screen-normal-16:before {
+    content: "\f2ce";
+}
+
+.octicon-screen-normal-24:before {
+    content: "\f2cf";
+}
+
+.octicon-search-16:before {
+    content: "\f2d0";
+}
+
+.octicon-search-24:before {
+    content: "\f2d1";
+}
+
+.octicon-server-16:before {
+    content: "\f2d2";
+}
+
+.octicon-server-24:before {
+    content: "\f2d3";
+}
+
+.octicon-share-16:before {
+    content: "\f2d4";
+}
+
+.octicon-share-24:before {
+    content: "\f2d5";
+}
+
+.octicon-share-android-16:before {
+    content: "\f2d6";
+}
+
+.octicon-share-android-24:before {
+    content: "\f2d7";
+}
+
+.octicon-shield-16:before {
+    content: "\f2d8";
+}
+
+.octicon-shield-24:before {
+    content: "\f2d9";
+}
+
+.octicon-shield-check-16:before {
+    content: "\f2da";
+}
+
+.octicon-shield-check-24:before {
+    content: "\f2db";
+}
+
+.octicon-shield-lock-16:before {
+    content: "\f2dc";
+}
+
+.octicon-shield-lock-24:before {
+    content: "\f2dd";
+}
+
+.octicon-shield-slash-16:before {
+    content: "\f2de";
+}
+
+.octicon-shield-slash-24:before {
+    content: "\f2df";
+}
+
+.octicon-shield-x-16:before {
+    content: "\f2e0";
+}
+
+.octicon-shield-x-24:before {
+    content: "\f2e1";
+}
+
+.octicon-sidebar-collapse-16:before {
+    content: "\f2e2";
+}
+
+.octicon-sidebar-collapse-24:before {
+    content: "\f2e3";
+}
+
+.octicon-sidebar-expand-16:before {
+    content: "\f2e4";
+}
+
+.octicon-sidebar-expand-24:before {
+    content: "\f2e5";
+}
+
+.octicon-sign-in-16:before {
+    content: "\f2e6";
+}
+
+.octicon-sign-in-24:before {
+    content: "\f2e7";
+}
+
+.octicon-sign-out-16:before {
+    content: "\f2e8";
+}
+
+.octicon-sign-out-24:before {
+    content: "\f2e9";
+}
+
+.octicon-single-select-16:before {
+    content: "\f2ea";
+}
+
+.octicon-single-select-24:before {
+    content: "\f2eb";
+}
+
+.octicon-skip-16:before {
+    content: "\f2ec";
+}
+
+.octicon-skip-24:before {
+    content: "\f2ed";
+}
+
+.octicon-skip-fill-16:before {
+    content: "\f2ee";
+}
+
+.octicon-skip-fill-24:before {
+    content: "\f2ef";
+}
+
+.octicon-sliders-16:before {
+    content: "\f2f0";
+}
+
+.octicon-smiley-16:before {
+    content: "\f2f1";
+}
+
+.octicon-smiley-24:before {
+    content: "\f2f2";
+}
+
+.octicon-sort-asc-16:before {
+    content: "\f2f3";
+}
+
+.octicon-sort-asc-24:before {
+    content: "\f2f4";
+}
+
+.octicon-sort-desc-16:before {
+    content: "\f2f5";
+}
+
+.octicon-sort-desc-24:before {
+    content: "\f2f6";
+}
+
+.octicon-sparkle-fill-16:before {
+    content: "\f2f7";
+}
+
+.octicon-sponsor-tiers-16:before {
+    content: "\f2f8";
+}
+
+.octicon-sponsor-tiers-24:before {
+    content: "\f2f9";
+}
+
+.octicon-square-16:before {
+    content: "\f2fa";
+}
+
+.octicon-square-24:before {
+    content: "\f2fb";
+}
+
+.octicon-square-fill-16:before {
+    content: "\f2fc";
+}
+
+.octicon-square-fill-24:before {
+    content: "\f2fd";
+}
+
+.octicon-squirrel-16:before {
+    content: "\f2fe";
+}
+
+.octicon-squirrel-24:before {
+    content: "\f2ff";
+}
+
+.octicon-stack-16:before {
+    content: "\f300";
+}
+
+.octicon-stack-24:before {
+    content: "\f301";
+}
+
+.octicon-star-16:before {
+    content: "\f302";
+}
+
+.octicon-star-24:before {
+    content: "\f303";
+}
+
+.octicon-star-fill-16:before {
+    content: "\f304";
+}
+
+.octicon-star-fill-24:before {
+    content: "\f305";
+}
+
+.octicon-stop-16:before {
+    content: "\f306";
+}
+
+.octicon-stop-24:before {
+    content: "\f307";
+}
+
+.octicon-stopwatch-16:before {
+    content: "\f308";
+}
+
+.octicon-stopwatch-24:before {
+    content: "\f309";
+}
+
+.octicon-strikethrough-16:before {
+    content: "\f30a";
+}
+
+.octicon-strikethrough-24:before {
+    content: "\f30b";
+}
+
+.octicon-sun-16:before {
+    content: "\f30c";
+}
+
+.octicon-sun-24:before {
+    content: "\f30d";
+}
+
+.octicon-sync-16:before {
+    content: "\f30e";
+}
+
+.octicon-sync-24:before {
+    content: "\f30f";
+}
+
+.octicon-tab-24:before {
+    content: "\f310";
+}
+
+.octicon-tab-external-16:before {
+    content: "\f311";
+}
+
+.octicon-table-16:before {
+    content: "\f312";
+}
+
+.octicon-table-24:before {
+    content: "\f313";
+}
+
+.octicon-tag-16:before {
+    content: "\f314";
+}
+
+.octicon-tag-24:before {
+    content: "\f315";
+}
+
+.octicon-tasklist-16:before {
+    content: "\f316";
+}
+
+.octicon-tasklist-24:before {
+    content: "\f317";
+}
+
+.octicon-telescope-16:before {
+    content: "\f318";
+}
+
+.octicon-telescope-24:before {
+    content: "\f319";
+}
+
+.octicon-telescope-fill-16:before {
+    content: "\f31a";
+}
+
+.octicon-telescope-fill-24:before {
+    content: "\f31b";
+}
+
+.octicon-terminal-16:before {
+    content: "\f31c";
+}
+
+.octicon-terminal-24:before {
+    content: "\f31d";
+}
+
+.octicon-three-bars-16:before {
+    content: "\f31e";
+}
+
+.octicon-thumbsdown-16:before {
+    content: "\f31f";
+}
+
+.octicon-thumbsdown-24:before {
+    content: "\f320";
+}
+
+.octicon-thumbsup-16:before {
+    content: "\f321";
+}
+
+.octicon-thumbsup-24:before {
+    content: "\f322";
+}
+
+.octicon-tools-16:before {
+    content: "\f323";
+}
+
+.octicon-tools-24:before {
+    content: "\f324";
+}
+
+.octicon-tracked-by-closed-completed-16:before {
+    content: "\f325";
+}
+
+.octicon-tracked-by-closed-completed-24:before {
+    content: "\f326";
+}
+
+.octicon-tracked-by-closed-not-planned-16:before {
+    content: "\f327";
+}
+
+.octicon-tracked-by-closed-not-planned-24:before {
+    content: "\f328";
+}
+
+.octicon-trash-16:before {
+    content: "\f329";
+}
+
+.octicon-trash-24:before {
+    content: "\f32a";
+}
+
+.octicon-triangle-down-16:before {
+    content: "\f32b";
+}
+
+.octicon-triangle-down-24:before {
+    content: "\f32c";
+}
+
+.octicon-triangle-left-16:before {
+    content: "\f32d";
+}
+
+.octicon-triangle-left-24:before {
+    content: "\f32e";
+}
+
+.octicon-triangle-right-16:before {
+    content: "\f32f";
+}
+
+.octicon-triangle-right-24:before {
+    content: "\f330";
+}
+
+.octicon-triangle-up-16:before {
+    content: "\f331";
+}
+
+.octicon-triangle-up-24:before {
+    content: "\f332";
+}
+
+.octicon-trophy-16:before {
+    content: "\f333";
+}
+
+.octicon-trophy-24:before {
+    content: "\f334";
+}
+
+.octicon-typography-16:before {
+    content: "\f335";
+}
+
+.octicon-typography-24:before {
+    content: "\f336";
+}
+
+.octicon-undo-16:before {
+    content: "\f337";
+}
+
+.octicon-unfold-16:before {
+    content: "\f338";
+}
+
+.octicon-unfold-24:before {
+    content: "\f339";
+}
+
+.octicon-unlink-16:before {
+    content: "\f33a";
+}
+
+.octicon-unlink-24:before {
+    content: "\f33b";
+}
+
+.octicon-unlock-16:before {
+    content: "\f33c";
+}
+
+.octicon-unlock-24:before {
+    content: "\f33d";
+}
+
+.octicon-unmute-16:before {
+    content: "\f33e";
+}
+
+.octicon-unmute-24:before {
+    content: "\f33f";
+}
+
+.octicon-unread-16:before {
+    content: "\f340";
+}
+
+.octicon-unread-24:before {
+    content: "\f341";
+}
+
+.octicon-unverified-16:before {
+    content: "\f342";
+}
+
+.octicon-unverified-24:before {
+    content: "\f343";
+}
+
+.octicon-upload-16:before {
+    content: "\f344";
+}
+
+.octicon-upload-24:before {
+    content: "\f345";
+}
+
+.octicon-verified-16:before {
+    content: "\f346";
+}
+
+.octicon-verified-24:before {
+    content: "\f347";
+}
+
+.octicon-versions-16:before {
+    content: "\f348";
+}
+
+.octicon-versions-24:before {
+    content: "\f349";
+}
+
+.octicon-video-16:before {
+    content: "\f34a";
+}
+
+.octicon-video-24:before {
+    content: "\f34b";
+}
+
+.octicon-webhook-16:before {
+    content: "\f34c";
+}
+
+.octicon-workflow-16:before {
+    content: "\f34d";
+}
+
+.octicon-workflow-24:before {
+    content: "\f34e";
+}
+
+.octicon-x-12:before {
+    content: "\f34f";
+}
+
+.octicon-x-16:before {
+    content: "\f350";
+}
+
+.octicon-x-24:before {
+    content: "\f351";
+}
+
+.octicon-x-circle-16:before {
+    content: "\f352";
+}
+
+.octicon-x-circle-24:before {
+    content: "\f353";
+}
+
+.octicon-x-circle-fill-12:before {
+    content: "\f354";
+}
+
+.octicon-x-circle-fill-16:before {
+    content: "\f355";
+}
+
+.octicon-x-circle-fill-24:before {
+    content: "\f356";
+}
+
+.octicon-zap-16:before {
+    content: "\f357";
+}
+
+.octicon-zap-24:before {
+    content: "\f358";
+}
+
+.octicon-zoom-in-16:before {
+    content: "\f359";
+}
+
+.octicon-zoom-in-24:before {
+    content: "\f35a";
+}
+
+.octicon-zoom-out-16:before {
+    content: "\f35b";
+}
+
+.octicon-zoom-out-24:before {
+    content: "\f35c";
+}
