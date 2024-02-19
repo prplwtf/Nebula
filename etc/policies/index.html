@@ -35,7 +35,7 @@
 <script>
     async function render() {
         const response = await fetch("/etc/policies.md");
-        document.querySelector('.markdown-container').innerHTML = marked.parse(response);
+        document.querySelector('.markdown-container').innerHTML = marked.parse(response.body());
     }
     render()
 </script>
