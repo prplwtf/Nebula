@@ -34,7 +34,6 @@
 </style>
 <script>
     async function render() {
-        document.querySelector('.markdown-container').innerHTML = marked.parse(response.body);
         a = '../policies.md'
         fetch(a)
           .then(b => {
