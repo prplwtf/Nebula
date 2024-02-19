@@ -34,8 +34,21 @@
 </style>
 <script>
     async function render() {
-        const response = await fetch("/etc/policies.md");
         document.querySelector('.markdown-container').innerHTML = marked.parse(response.body);
-    }
+        a = '../policies.md'
+        fetch(a)
+          .then(b => {
+            if (!b.ok) {
+              throw new Error(`Network response was not ok: ${b.status}`);
+            }
+            return b.text();
+          })
+          .then(markdownContent => {
+            document.querySelector('.markdown-container').innerHTML = marked.parse(markdownContent);
+          })
+          .catch(c => {
+            console.error('Error fetching the Markdown content:', c);
+          });
+          }
     render()
 </script>
