@@ -1,5 +1,5 @@
 ### End User License Agreement (EULA)
-**Last edited**: 19 February 2024
+**Last edited**: 21 February 2024
 <br><br>
 
 When buying Nebula you buy "**1 (one) license**". This license should only be used on servers that **THE LICENSE OWNER** owns, virtually (a virtual private server that **THE LICENSE OWNER** rents) or physically (a server that is owned and managed by **THE LICENSE OWNER**).
@@ -13,6 +13,11 @@ Redistributing or illegally downloading Nebula and/or parts of it's source code 
 - "prpl.wtf" has reasonable suspicion that the license owner is breaking the EULA.
 
 "sourcexchange.net" and "builtbybit.com" reserve the right to revoke your license without any notice at any moment.
+
+Additionally to previously-mentioned terms, the following apply to all sales of Nebula:
+- You may not resell this product.
+- You may not relicense this product.
+- You may not make this product accessible to anyone who does not require access in order to work on the projects which this product is required for, and you will be held responsible if the product is shared outside of your project.
 
 <br>
 
