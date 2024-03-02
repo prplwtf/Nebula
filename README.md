@@ -1,4 +1,4 @@
-![designer](https://github.com/prplwtf/nebula/assets/103201875/72a1fd7e-dd61-4cbf-a8be-a9943a8e6cdb)
+![](https://www.sourcexchange.net/storage/795/01HQ1KPHG4HE4JKS3501BQ66BZ.png)
 
 This repository is used for **issue tracking**, **content delivery**, **feedback** and more. This repository does not contain source code of Nebula itself, only some libraries.
 
