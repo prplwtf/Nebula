@@ -22,12 +22,12 @@ Additionally to previously-mentioned terms, the following apply to all sales of 
 <br>
 
 ### Refund Policy
-**Last edited**: 19 February 2024
+**Last edited**: 25 August 2024
 <br><br>
 
 Depending on the situation, we may provide you with a (in some cases partial) refund even if it would technically be against the rules detailed below. You can find contact information over on [`www.prpl.wtf`](https://prpl.wtf).
 
-- If you are a parent/guardian and wish to refund a purchase made by your child and contact us within 30 days of the purchase being made, you will receive a full refund. We may ask for additional information to prevent abuse.
+- If you are a parent/guardian and wish to refund a purchase made by your child (up to 15 years of age) **on your behalf** and contact us within 30 days of the purchase being made, you will receive a full refund. We may ask for additional information to prevent abuse.
 - If you purchased this resource by mistake or have changed your mind, contact us within 7 days and have not downloaded a copy of Nebula, you can receive a full refund.
 - If you cannot run Blueprint on your panel, have problems regarding other modifications or unrelated errors in general, we will not provide a refund.
 - We do not provide support or refunds through disputes, cases and chargebacks, but defend our case instead.
