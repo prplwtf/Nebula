@@ -19,7 +19,7 @@ The License Owner agrees to the following restrictions:
 - The License Owner may not engage in illegal use of the Software or any of its components. This prohibition applies to all individuals, including those who are not License Owners.
 - The License Owner may not transfer or relicense the Software to any third party.
 - The Software may be used on a shared machine owned or rented by the License Owner, allowing multiple users to access the Software. However, individuals are not permitted to use the Software on their own machines or download any copies from the License Owner.
-- The Software may not be used on a SaaS ("Software as a Service").
+- The Software may not be used on a SaaS ("Software as a Service") in any circumstances.
 
 **4. License Revocation**\
 The Author reserves the right to revoke the License Owner's license and access to the Software under the following circumstances:
