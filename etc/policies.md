@@ -1,5 +1,5 @@
 ### End User License Agreement (EULA)
-**Last edited**: 24 October 2025
+**Last edited**: 29 October 2025
 <br><br>
 
 **1. Definitions**
@@ -20,6 +20,7 @@ The License Owner agrees to the following restrictions:
 - The License Owner may not transfer or relicense the Software to any third party.
 - The Software may be used on a shared machine owned or rented by the License Owner, allowing multiple users to access the Software. However, individuals are not permitted to use the Software on their own machines or download any copies from the License Owner.
 - The Software may not be used on any SaaS ("Software as a Service") without explicit approval from The Author.
+- The Software may not be sold or offered as a SaaS ("Software as a Service") without explicit approval from The Author.
 
 **4. License Revocation**\
 The Author reserves the right to revoke the License Owner's license and access to the Software under the following circumstances:
